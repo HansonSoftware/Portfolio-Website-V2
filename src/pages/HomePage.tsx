@@ -1,9 +1,14 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import Welcome from '../components/Welcome'
 
 export default function HomePage() {
     return (
         <div>
-            Hello World! I'm Hayden. 
+            <Navbar />
+            <Welcome />
+            <Footer />
         </div>
     )
 }

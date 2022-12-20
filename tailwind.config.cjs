@@ -7,7 +7,12 @@ module.exports = {
   plugins: [require('daisyui')],
   // daisyUI config
   daisyui: {
-    themes: ["retro", "night"],
+    themes: [{
+      light: {
+        ...require("daisyui/src/colors/themes")["[data-theme=retro]"],
+        primary: "#307049",
+      },
+    }, "night"],
     styled: true,
     base: true,
     utils: true,

@@ -2,7 +2,7 @@
 
 * **Author:** Hayden Hanson
 * **URL:** haydenhanson.dev
-* **Netlify Deployment URL:** https://haydens-portfolio-swe432.herokuapp.com/
+* **Netlify Deployment URL:** https://haydenhanson.netlify.app/
 
 ### Credit Where Its Due:
 * Tailwind CSS

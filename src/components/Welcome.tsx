@@ -1,6 +1,3 @@
-import React from 'react'
-import '../index.css'
-
 export default function Welcome() {
     return (
         <div className="hero min-h-screen pt-24">

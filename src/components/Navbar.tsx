@@ -3,7 +3,7 @@ import github from '../images/personal/profile.png'
 
 export default function Navbar() {
     return (
-        <div className="navbar bg-base-100 fixed px-4">
+        <div className="navbar bg-base-100 fixed z-10 px-4 rounded-b-md">
             <div className="navbar">
 
                 {/* Mobile Dropdown Start */}
@@ -11,20 +11,20 @@ export default function Navbar() {
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabIndex={0} className="menu dropdown-content mt-3 p-2 px-1 text-xl shadow bg-base-100 rounded-box w-52">
+                <ul tabIndex={0} className="menu dropdown-content mt-3 p-2 px-1 text-xl shadow bg-base-100 rounded-box w-52 z-10">
                     <li tabIndex={0}>
                     <a className="justify-between">
                         Portfolio
                         <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                     </a>
-                    <ul className="p-2">
+                    <ul className="p-2 bg-base-100">
                         <li><a>Project 1</a></li>
                         <li><a>Project 2</a></li>
                     </ul>
                     </li>
                     <li><a>Skills</a></li>
                     <li><a>About</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 </div>
                 {/* Mobile Dropdown End */}
@@ -33,21 +33,21 @@ export default function Navbar() {
                     <img src={github} alt="github" className="h-14 w-14 object-fill rounded-full p-0"/>
                 </a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-2xl">
+            <div className="navbar-center hidden lg:flex z-10">
+                <ul className="menu menu-horizontal px-1 text-2xl bg-base-100 z-10">
                     <li tabIndex={0}>
                         <a>
                         Portfolio
                         <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                         </a>
-                        <ul className="p-2 text-lg">
+                        <ul className="p-2 text-lg bg-base-100">
                         <li><a>Project 1</a></li>
                         <li><a>Project 2</a></li>
                         </ul>
                     </li>
                     <li><a>Skills</a></li>
                     <li><a>About</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div>

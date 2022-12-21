@@ -13,6 +13,21 @@
   scroll-behavior: smooth;
 }
 
+/* Animations */
+@keyframes slideup {
+  from {
+      opacity: 0;
+      transform: translateY(25%);
+  }
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+.animate-slideup {
+  animation: slideup 1s ease-in-out;
+}
+
 /* Footer Styles: Inspired from CodePen: ___ */
 .footer-container {
   display: flex;

@@ -20,4 +20,5 @@ module.exports = {
     rtl: false,
     prefix: "",
   },
+
 }

@@ -20,7 +20,7 @@ export default function ProjectTile(props:ProjectProps) {
                 </div>
                 {props.device === "web" && (
                 <div className="px-6 pt-12 w-full flex justify-center">
-                    <div className="mockup-window border bg-base-300">
+                    <div className="mockup-window border border-base-100">
                         <div className="flex justify-center bg-base-200">
                             <img src={props.image} alt="project_image" className="rounded-sm" style={{width: "100%", height: "100%"}} />
                         </div>

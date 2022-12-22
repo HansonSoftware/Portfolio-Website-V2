@@ -27,6 +27,12 @@
 .animate-slideup {
   animation: slideup 1s ease-in-out;
 }
+.animate-slideup2 {
+  animation: slideup 2s ease-in-out;
+}
+.animate-slideup3 {
+  animation: slideup 3s ease-in-out;
+}
 
 /* Footer Styles: Inspired from CodePen: ___ */
 .wrapper {

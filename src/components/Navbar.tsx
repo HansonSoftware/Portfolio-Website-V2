@@ -19,24 +19,24 @@ export default function Navbar() {
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabIndex={0} className="menu dropdown-content mt-3 p-2 px-1 text-xl shadow bg-base-100 rounded-box w-52 z-10">
+                <ul tabIndex={0} className="menu dropdown-content mt-3 p-2 px-1 text-xl shadow bg-base-100 rounded-box w-40 z-10">
                     <li tabIndex={0}>
                     <Link to='/' className="justify-between">
                         Portfolio
                         <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                     </Link>
-                    <ul className="p-2 bg-base-100">
+                    <ul className="p-1 bg-base-100 text-lg">
                         <li><Link to='/projects/Spotify Player'>Spotify Player</Link></li>
                         <li><Link to='/projects/Pocket Recipes'>Pocket Recipes</Link></li>
                         <li><Link to='/projects/Taskman Shell'>Taskman Shell</Link></li>
                         <li><Link to='/projects/Svelte Note'>Svelte Note</Link></li>
                         <li><Link to='/projects/Process Scheduler'>Process Scheduler</Link></li>
-                        <li><Link to='/projects/Algorithm Simulation'>Algorithm Simulation</Link></li>
+                        <li><Link to='/projects/Algorithm Simulation'>Algo Simulation</Link></li>
                     </ul>
                     </li>
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/about'>Writing</Link></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 </div>

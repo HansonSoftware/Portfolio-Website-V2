@@ -36,8 +36,8 @@ export default function Navbar() {
                     </li>
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/about'>Writing</Link></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><Link to='/writing'>Writing</Link></li>
                 </ul>
                 </div>
                 {/* Mobile Dropdown End */}
@@ -64,8 +64,8 @@ export default function Navbar() {
                     </li>
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/about'>Writing</Link></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><Link to='/writing'>Writing</Link></li>
                 </ul>
             </div>
             <div>

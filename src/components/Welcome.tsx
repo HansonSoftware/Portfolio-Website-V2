@@ -1,3 +1,6 @@
+import React from "react";
+import { FaAngleDoubleDown } from 'react-icons/fa'
+
 export default function Welcome() {
     return (
         <div className="hero min-h-screen pt-24">
@@ -8,6 +11,11 @@ export default function Welcome() {
                     <p className="lg:text-3xl md:text-2xl sm:text-xl text-lg py-5">More specifically, I'm a frontend developer with a keen eye for good design, experienced with backend developement and software testing. I approach every project with <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-primary">craftsmanship</span> in mind.</p>
                 </div>
             </div>
+            {/* Scroll Bounce Start */}
+            <div className="grid grid-flow-row place-content-center animate-slideup" style={{paddingTop: "32rem"}}>
+                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+            </div>
+            {/* Scroll Bounce End */}
         </div>
     )
 }

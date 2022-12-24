@@ -7,6 +7,7 @@
 ### Credit Where Its Due:
 * Tailwind CSS
 * Daisy UI
+* Fireship YT Channel
 * Inspirations: 
 
 ### Documentation of Web App and React Components

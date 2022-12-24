@@ -21,7 +21,13 @@ export default function Skills() {
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>JavaScript  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="85" max="100"></progress>
+                            <progress className="progress progress-primary z-0 w-64 h-5" value="85" max="100"></progress>
+                            {/* <div className="w-full flex justify-between z-50 text-3xl font-bold px-2 translate-y-8">
+                                <span>|</span>
+                                <span>|</span>
+                                <span>|</span>
+                                <span>|</span>
+                            </div> */}
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
@@ -213,31 +219,32 @@ export default function Skills() {
         {/* Toolbox End */}
 
         {/* Web Dev Start */}
-        <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-6'>Web</h1>
+        <div className="lg:px-20 px-10 pt-36 min-h-screen lg:max-h-screen">
+            <h1 className='text-6xl text-primary pb-6'>Web</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Info (Left) */}
-                <div className="" style={{minWidth: "40vw"}}>
+                <div className="" style={{minWidth: "55vw"}}>
                     <div className="flex flex-col gap-4">
                         {/* Web Experience */}
-                        <div className="" style={{minHeight: "50vh"}}>
-                            <h1 className="text-3xl">My Experience</h1>
-                            <ul>
-                                <li>Thing</li>
-                                <li>Thing 2</li>
-                                <li>Thing 3</li>
-                            </ul>
+                        <div className="" style={{minHeight: "30vh"}}>
+                            <h1 className="text-3xl underline pb-2">Experience</h1>
+                            <div style={{maxWidth: "40rem"}}>
+                                <li className="text-lg">This is my strong suite, and also my favorite area of development at the moment.</li>
+                                <li className="text-lg">I have used React and Svelte multiple times and love working with either.</li>
+                                <li className="text-lg">I have worked with multiple API's and built microservices with Express.</li>
+                                <li className="text-lg">I can create beautiful yet functional UI's while also integrating backend features.</li>
+                                <li className="text-lg">I have taken <a className="underline" href="">SWE 432</a> at GMU as an elective.</li>
+                            </div>
                         </div>
                         {/* Web Experience */}
                         {/* Web Projects */}
-                        <div className="pb-10">
-                            <h1 className="text-3xl">Web Projects</h1>
-                            <ul>
-                                <li><a className="underline text-lg list-item" href="">Spotify Player</a></li>
-                                <li><a className="underline text-lg list-item" href="">Svelte Note</a></li>
-                                <li><a className="underline text-lg list-item" href="">Microservice</a></li>
-                                <li><a className="underline text-lg list-item" href="">Old Portfolio Site</a></li>
-                            </ul>
+                        <div className="flex flex-col gap-1 pb-10 w-64">
+                            <h1 className="text-3xl underline">Web Projects</h1>
+                            <a className="btn btn-outline text-lg" href="">Spotify Player</a>
+                            <a className="btn btn-outline text-lg" href="">Svelte Note</a>
+                            <a className="btn btn-outline text-lg" href="">Microservice</a>
+                            <a className="btn btn-outline text-lg" href="">This Site (V2)</a>
+                            <a className="btn btn-outline text-lg" href="">Old Site (V1)</a>
                         </div>
                         {/* Web Projects */}
                     </div>
@@ -245,7 +252,7 @@ export default function Skills() {
                 {/* Info (Left) */}
                 {/* Stack (Right) */}
                 <div className="flex flex-col gap-4" style={{minWidth: "30vw"}}>
-                    <h1 className="text-3xl">My Most Used Stack</h1>
+                    <h1 className="text-3xl underline">My Most Used Stack</h1>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col gap-0">
                             <div className="translate-x-5">
@@ -283,8 +290,8 @@ export default function Skills() {
             <h1 className='text-5xl text-primary pb-6'>Mobile</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Stack (Left) */}
-                <div className="flex flex-col gap-4" style={{minWidth: "50vw"}}>
-                    <h1 className="text-3xl">My Most Used Stack</h1>
+                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                    <h1 className="text-3xl">Stacks Worked With</h1>
                     <div className="flex flex-row gap-2 pb-10">
                         <div className="flex flex-col gap-0">
                             <div className="translate-x-5 rotate-12">
@@ -305,7 +312,7 @@ export default function Skills() {
                 <div className="">
                     <div className="flex flex-col gap-4">
                         {/* Mobile Experience */}
-                        <div className="" style={{minHeight: "40vh"}}>
+                        <div className="" style={{minHeight: "50vh"}}>
                             <h1 className="text-3xl">My Experience</h1>
                             <ul>
                                 <li>Thing</li>
@@ -316,7 +323,7 @@ export default function Skills() {
                         {/* Mobile Experience */}
                         {/* Mobile Projects */}
                         <div className="pb-10">
-                            <h1 className="text-3xl">One Lonely Mobile Project</h1>
+                            <h1 className="text-3xl">One Lonely Project</h1>
                             <ul>
                                 <li><a className="underline text-lg list-item" href="">Pocket Recipes</a></li>
                             </ul>
@@ -334,7 +341,7 @@ export default function Skills() {
             <h1 className='text-5xl text-primary pb-6'>Unix Development</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Info (Left) */}
-                <div className="" style={{minWidth: "40vw"}}>
+                <div className="" style={{minWidth: "50vw"}}>
                     <div className="flex flex-col gap-4">
                         {/* Unix Experience */}
                         <div className="" style={{minHeight: "40vh"}}>
@@ -361,12 +368,11 @@ export default function Skills() {
                 </div>
                 {/* Info (Left) */}
                 {/* Stack (Right) */}
-                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                <div className="flex flex-col gap-4" style={{minWidth: "35vw"}}>
                     <h1 className="text-3xl">Tools</h1>
                     <div className="flex flex-row gap-2">
-                        <div className="flex flex-row gap-2 pb-10">
+                        <div className="flex flex-col pt-72 pb-10">
                             <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
-                            <SkillTile name={"Assembly"} icon={"https://raw.githubusercontent.com/github/explore/e495457f5ff28c343f9e422f8e3cf80fd3e80890/topics/assembly/assembly.png"}/>
                         </div>
                     </div>
                 </div>
@@ -383,7 +389,7 @@ export default function Skills() {
                 <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
                     <h1 className="text-3xl">Testing Tools</h1>
                     <div className="flex flex-row gap-2">
-                        <div className="flex flex-row gap-2">
+                        <div className="flex flex-col pt-64 gap-0">
                             <SkillTile name={"Jest"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"} />
                             <SkillTile name={"JUnit"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} />
                         </div>
@@ -394,7 +400,7 @@ export default function Skills() {
                 <div className="" style={{minWidth: "40vw"}}>
                     <div className="flex flex-col gap-4">
                         {/* Testing Experience */}
-                        <div className="" style={{minHeight: "40vh"}}>
+                        <div className="" style={{minHeight: "50vh"}}>
                             <h1 className="text-3xl">My Experience</h1>
                             <ul>
                                 <li>Thing</li>
@@ -403,14 +409,6 @@ export default function Skills() {
                             </ul>
                         </div>
                         {/* Testing Experience */}
-                        {/* Testing Projects */}
-                        <div className="pb-10">
-                            <h1 className="text-3xl">Example Tests</h1>
-                            <ul>
-                                <li><a className="underline text-lg list-item" href="">Pocket Recipes</a></li>
-                            </ul>
-                        </div>
-                        {/* Testing Projects */}
                     </div>
                 </div>
                 {/* Info (Right) */}

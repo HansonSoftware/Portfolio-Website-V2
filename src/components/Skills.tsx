@@ -228,7 +228,7 @@ export default function Skills() {
                         {/* Web Experience */}
                         <div className="" style={{minHeight: "30vh"}}>
                             <h1 className="text-3xl underline pb-2">Experience</h1>
-                            <div style={{maxWidth: "40rem"}}>
+                            <div style={{maxWidth: "45rem"}}>
                                 <li className="text-lg">This is my strong suite, and also my favorite area of development at the moment.</li>
                                 <li className="text-lg">I have used React and Svelte multiple times and love working with either.</li>
                                 <li className="text-lg">I have worked with multiple API's and built microservices with Express.</li>
@@ -287,11 +287,11 @@ export default function Skills() {
 
         {/* Mobile Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-6'>Mobile</h1>
+            <h1 className='text-6xl text-primary pb-6'>Mobile</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Stack (Left) */}
-                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
-                    <h1 className="text-3xl">Stacks Worked With</h1>
+                <div className="flex flex-col gap-4" style={{minWidth: "35vw"}}>
+                    <h1 className="text-3xl underline">Stack Used</h1>
                     <div className="flex flex-row gap-2 pb-10">
                         <div className="flex flex-col gap-0">
                             <div className="translate-x-5 rotate-12">
@@ -313,20 +313,23 @@ export default function Skills() {
                     <div className="flex flex-col gap-4">
                         {/* Mobile Experience */}
                         <div className="" style={{minHeight: "50vh"}}>
-                            <h1 className="text-3xl">My Experience</h1>
-                            <ul>
-                                <li>Thing</li>
-                                <li>Thing 2</li>
-                                <li>Thing 3</li>
-                            </ul>
+                            <h1 className="text-3xl underline pb-2">Experience</h1>
+                            <div style={{maxWidth: "45rem"}}>
+                                <li className="text-lg">I was the lead frontend developer on a mobile project at GMU.</li>
+                                <li className="text-lg">I am experieced with Flutter and Dart.</li>
+                                <li className="text-lg">I am familiar with React Native, and want to practice more!</li>
+                                <li className="text-lg">I am open to learning Swift and or Kotlin for native iOS and Android development.</li>
+                                <li className="text-lg">I can create beautiful yet functional UI's while also integrating backend features.</li>
+                                <li className="text-lg">I am going to take <a className="underline" href="">CS 477</a> at GMU as an elective to further my experience.</li>
+                            </div>
                         </div>
                         {/* Mobile Experience */}
                         {/* Mobile Projects */}
                         <div className="pb-10">
-                            <h1 className="text-3xl">One Lonely Project</h1>
-                            <ul>
-                                <li><a className="underline text-lg list-item" href="">Pocket Recipes</a></li>
-                            </ul>
+                            <h1 className="text-3xl underline pb-2">Lonely Mobile Project</h1>
+                            <div>
+                                <a className="btn btn-outline text-lg" href="">Pocket Recipes 🥕</a>
+                            </div>
                         </div>
                         {/* Mobile Projects */}
                     </div>
@@ -338,41 +341,48 @@ export default function Skills() {
 
         {/* Unix Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-6'>Unix Development</h1>
+            <h1 className='text-6xl text-primary pb-6'>Unix Development</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Info (Left) */}
                 <div className="" style={{minWidth: "50vw"}}>
                     <div className="flex flex-col gap-4">
                         {/* Unix Experience */}
                         <div className="" style={{minHeight: "40vh"}}>
-                            <h1 className="text-3xl">My Experience</h1>
-                            <ul>
-                                <li>Thing</li>
-                                <li>Thing 2</li>
-                                <li>Thing 3</li>
-                            </ul>
+                            <h1 className="text-3xl underline">Experience</h1>
+                            <div style={{maxWidth: "45rem"}}>
+                                <li className="text-lg">Zeus at GMU.</li>
+                                <li className="text-lg">Familiar with Linux.</li>
+                                <li className="text-lg">CS 367.</li>
+                                <li className="text-lg">CS 468.</li>
+                                <li className="text-lg">CS 471.</li>
+                                <li className="text-lg">I include Rust here and not in my toolbox bevcause this is a very new tool for me.</li>
+                                <li className="text-lg">I plan to dive deeper into Rust development in my free time this year.</li>
+                            </div>
                         </div>
                         {/* Unix Experience */}
                         {/* Unix Projects */}
                         <div className="pb-10">
-                            <h1 className="text-3xl">Unix Projects</h1>
-                            <ul>
-                                <li><a className="underline text-lg list-item pl-4" href="">Taskman Shell</a></li>
-                                <li><a className="underline text-lg list-item pl-4" href="">Process Scheduler</a></li>
-                                <li><a className="underline text-lg list-item pl-4" href="">Floating Point Calculator</a></li>
-                                <li><a className="underline text-lg list-item pl-4" href="">Assembly Bomb Defusal</a></li>
-                            </ul>
+                            <h1 className="text-3xl underline pb-2">Unix Projects</h1>
+                            <div className="flex flex-col gap-1 pb-10 w-64">
+                                <a className="btn btn-outline text-lg" href="">Taskman Shell </a>
+                                <a className="btn btn-outline text-lg" href="">Floating Point 🧮</a>
+                                <a className="btn btn-outline text-lg" href="">Process Scheduler</a>
+                                <a className="btn btn-outline text-lg" href="">Assembly Bomb 💣</a>
+                            </div>
                         </div>
                         {/* Unix Projects */}
                     </div>
                 </div>
                 {/* Info (Left) */}
                 {/* Stack (Right) */}
-                <div className="flex flex-col gap-4" style={{minWidth: "35vw"}}>
-                    <h1 className="text-3xl">Tools</h1>
+                <div className="flex flex-col" style={{minWidth: "35vw"}}>
+                    <h1 className="text-3xl underline">Tools</h1>
                     <div className="flex flex-row gap-2">
-                        <div className="flex flex-col pt-72 pb-10">
-                            <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                        <div className="flex flex-col pt-2 pb-10">
+                            <div className="translate-x-3">
+                                <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                            </div>
+                            <SkillTile name={"Rust"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"} />
                         </div>
                     </div>
                 </div>
@@ -382,16 +392,18 @@ export default function Skills() {
         {/* Unix End */}
 
         {/* Testing Start */}
-        <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-6'>Testing</h1>
+        <div className="lg:px-20 px-10 pt-36 min-h-full">
+            <h1 className='text-6xl text-primary pb-6'>Testing</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Stack (Left) */}
                 <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
-                    <h1 className="text-3xl">Testing Tools</h1>
+                    <h1 className="text-3xl underline">Testing Tools</h1>
                     <div className="flex flex-row gap-2">
-                        <div className="flex flex-col pt-64 gap-0">
+                        <div className="flex flex-col gap-0">
                             <SkillTile name={"Jest"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"} />
-                            <SkillTile name={"JUnit"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} />
+                            <div className="translate-x-3">
+                                <SkillTile name={"JUnit"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -401,12 +413,11 @@ export default function Skills() {
                     <div className="flex flex-col gap-4">
                         {/* Testing Experience */}
                         <div className="" style={{minHeight: "50vh"}}>
-                            <h1 className="text-3xl">My Experience</h1>
-                            <ul>
-                                <li>Thing</li>
-                                <li>Thing 2</li>
-                                <li>Thing 3</li>
-                            </ul>
+                            <h1 className="text-3xl underline pb-2">Experience</h1>
+                            <div style={{maxWidth: "45rem"}}>
+                                <li className="text-lg">I have written many tests in both JUnit and Jest.</li>
+                                <li className="text-lg">SWE 437.</li>
+                            </div>
                         </div>
                         {/* Testing Experience */}
                     </div>
@@ -415,6 +426,12 @@ export default function Skills() {
             </div>
         </div>        
         {/* Testing End */}
+
+        {/* Scroll Message Start */}
+        <div className="grid grid-flow-row place-content-center pt-20">
+                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+            </div>
+            {/* Scroll Message End */}
 
         {/* Development and Design Start */}
         <div className="lg:px-10 px-2 pt-36">

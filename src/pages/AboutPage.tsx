@@ -1,6 +1,8 @@
 import React from 'react'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import About from '../components/About';
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -18,6 +20,7 @@ export default function AboutPage() {
     
     return (
         <div>
+            <About />
             <Contact />
             <Footer />
         </div>

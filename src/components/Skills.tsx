@@ -1,42 +1,429 @@
 import React from 'react'
 import SkillTile from './SkillTile'
 import { FaAngleDoubleDown } from 'react-icons/fa'
+import { AiFillStar } from 'react-icons/ai'
 
 export default function Skills() {
     
     return (
         <div className="pt-32">
-        {/* Toolbox Start */}
+
+        {/* Progress Bars Start */}
         <div className="lg:px-20 px-10">
             <h1 className="pb-8 text-8xl animate-slideup3">Skills</h1>
-            <h1 className='text-5xl pb-6 animate-slideup2'>My Evergrowing Toolbox</h1>
-            <h2 className='text-4xl text-primary italic animate-slideup'>“You don’t understand anything until you learn it more than one way.”</h2>
-            <h3 className='text-4xl text-primary pl-2 pb-6 animate-slideup'>- Marvin Minsky</h3>
+            <div className="flex flex-wrap gap-10 pt-10">
+
+                {/* Language Section Start */}
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+
+                    <h1 className="text-3xl underline pt-4 animate-slideup2">Languages</h1>
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>JavaScript  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="85" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>C  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Dart  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="50" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Java  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="70" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Python  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="55" max="100"></progress>
+                    </div>
+                </div>
+                {/* Language Section End */}
+
+                {/* Expertise Section Start */}
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+
+                    <h1 className="text-3xl underline pt-4 animate-slideup2">Versatility</h1>
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Frontend  </code> 
+                        </div>
+                        <progress className="progress w-64 h-5" value="90" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Backend  </code> 
+                        </div>
+                        <progress className="progress progress-black w-64 h-5" value="65" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Databases  </code> 
+                        </div>
+                        <progress className="progress progress-black w-64 h-5" value="75" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-40">
+                            <code>Testing  </code> 
+                        </div>
+                        <progress className="progress progress-black w-64 h-5" value="75" max="100"></progress>
+                    </div>
+                </div>
+                {/* Expertise Section End */}
+
+                {/* Frameworks Section Start */}
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+
+                    <h1 className="text-3xl underline pt-4 animate-slideup2">Frameworks</h1>
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-32">
+                            <code>React  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="85" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-32">
+                            <code>Svelte  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
+                    </div>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-32">
+                            <code>Vue  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="50" max="100"></progress>
+                    </div>
+
+                    <br/>
+
+                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                        <div className="flex justify-end text-xl font-bold w-32">
+                            <code>Flutter  </code> 
+                        </div>
+                        <progress className="progress progress-primary w-64 h-5" value="50" max="100"></progress>
+                    </div>
+                </div>
+                {/* Frameworks Section End */}
+
+            </div>
+
+            {/* Scroll Message Start */}
+        <div className="grid grid-flow-row place-content-center pt-36">
+            {/* <h1 className="text-3xl text-primary">Scroll to learn more about my experience</h1> */}
+            <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+        </div>
+        {/* Scroll Message End */}
+
+        </div>
+        {/* Progress Bars End */}
+
+        {/* Toolbox Start */}
+        <div className="lg:px-20 px-10 pt-36">
+            <div className="flex flex-row gap-8">
+                <h1 className='text-5xl pb-6'>My Toolbox</h1>
+                <div className="dropdown dropdown-end">
+                    <label tabIndex={0} className="btn btn-circle btn-ghost btn-sm text-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="w-6 h-6 stroke-secondary"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </label>
+                    <div tabIndex={0} className="card card-compact dropdown-content shadow bg-base-300 rounded-box w-80">
+                        <div className="card-body">
+                            <h2 className="card-title">What do these icons mean?</h2> 
+                            <p>These are tools that I am experienced with in some meaningful way! At the very least I am familiar with every tool on this list and could quickly jump back into using.</p>
+                            <br/>
+                            <div className="flex flex-row gap-2">
+                                <AiFillStar className="text-secondary w-5 h-5"/>
+                                <p>Indicates a favorite.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 className='text-4xl text-primary italic'>“You don’t understand anything until you learn it more than one way.”</h2>
+            <h3 className='text-4xl text-primary pl-2 pb-6'>- Marvin Minsky</h3>
             <div className="flex flex-wrap sm:justify-start justify-center gap-4 pt-6 pb-16 animate-slideup">
                 <SkillTile name={"Java"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"} />
-                <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                </div>
                 <SkillTile name={"HTML"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"} />
                 <SkillTile name={"CSS"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"} />
                 <SkillTile name={"JavaScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"TypeScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"} />
+                </div>
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Vite"} icon={"https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"} />
+                </div>
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Tailwind"} icon={"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"} />
+                </div>
                 <SkillTile name={"Bootstrap"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"} />
                 <SkillTile name={"Figma"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"} />
-                <SkillTile name={"Firebase"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Firebase"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"} />
+                </div>
+                <SkillTile name={"Mongo DB"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"} />
                 <SkillTile name={"Express"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"} />
-                <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} />
+                </div>
                 <SkillTile name={"Node"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"} />
-                <SkillTile name={"Flutter"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Svelte"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"} />
+                </div>
+                <SkillTile name={"Vue"} icon={"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Flutter"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"} />
+                </div>
+                <SkillTile name={"Dart"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"} />
                 <SkillTile name={"Python"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"} />
                 <SkillTile name={"Unix"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg"} />
                 <SkillTile name={"Git"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"} />
                 <SkillTile name={"JUnit"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} />
-                <SkillTile name={"Jest"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"} />
+                <div className="indicator">
+                    <span className="indicator-item translate-x-1 translate-y-0"><AiFillStar className="text-secondary w-6 h-6"/></span>
+                    <SkillTile name={"Jest"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"} />
+                </div>
                 <SkillTile name={"Jira"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"} />
             </div>
         </div>
         {/* Toolbox End */}
 
+        {/* Web Dev Start */}
+        <div className="lg:px-20 px-10 pt-36 min-h-screen">
+            <h1 className='text-5xl text-primary pb-10'>Web</h1>
+            <div className='flex flex-wrap content-between'>
+                {/* Info (Left) */}
+                <div className="" style={{minWidth: "40vw"}}>
+                    <div className="flex flex-col gap-4">
+                        {/* Web Experience */}
+                        <div className="" style={{minHeight: "40vh"}}>
+                            <h1 className="text-3xl">My Experience</h1>
+                            <ul>
+                                <li>Thing</li>
+                                <li>Thing 2</li>
+                                <li>Thing 3</li>
+                            </ul>
+                        </div>
+                        {/* Web Experience */}
+                        {/* Web Projects */}
+                        <div className="pb-10">
+                            <h1 className="text-3xl">Web Projects</h1>
+                            <ul>
+                                <li><a className="underline text-lg list-item" href="">Spotify Player</a></li>
+                                <li><a className="underline text-lg list-item" href="">Svelte Note</a></li>
+                                <li><a className="underline text-lg list-item" href="">Microservice</a></li>
+                                <li><a className="underline text-lg list-item" href="">Old Portfolio Site</a></li>
+                            </ul>
+                        </div>
+                        {/* Web Projects */}
+                    </div>
+                </div>
+                {/* Info (Left) */}
+                {/* Stack (Right) */}
+                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                    <h1 className="text-3xl">My Most Used Stack</h1>
+                    <div className="flex flex-row gap-2">
+                        <div className="flex flex-col gap-0">
+                            <div className="translate-x-5">
+                                <SkillTile name={"Firebase"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"}/>
+                            </div>
+                            <div className="translate-x-2">
+                                <SkillTile name={"Express"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"}/>
+                            </div>
+                            <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"}/>
+                            <div className="translate-x-3">
+                                <SkillTile name={"Node"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"}/>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-0">
+                            <div className="translate-x-5 rotate-6">
+                                <SkillTile name={"Tailwind"} icon={"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"} />
+                            </div>
+                            <div className="translate-x-1">
+                                <SkillTile name={"TypeScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"} />
+                            </div>
+                            <SkillTile name={"JavaScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"} />
+                            <div className="translate-x-1">
+                                <SkillTile name={"Vite"} icon={"https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Stack (Right) */}
+            </div>
+        </div>
+        {/* Web Dev End */}
+
+        {/* Mobile Start */}
+        <div className="lg:px-20 px-10 pt-36 min-h-screen">
+            <h1 className='text-5xl text-primary pb-10'>Mobile</h1>
+            <div className='flex flex-wrap content-between'>
+                {/* Stack (Left) */}
+                <div className="flex flex-col gap-4" style={{minWidth: "50vw"}}>
+                    <h1 className="text-3xl">My Most Used Stack</h1>
+                    <div className="flex flex-row gap-2 pb-10">
+                        <div className="flex flex-col gap-0">
+                            <div className="translate-x-5 rotate-12">
+                                <SkillTile name={"Mongo DB"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"} />
+                            </div>
+                            <div className="translate-x-2 rotate-6">
+                                <SkillTile name={"Spring"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"}/>
+                            </div>
+                            <SkillTile name={"Flutter"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"} />
+                            <div className="translate-x-3">
+                                <SkillTile name={"Dart"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Stack (Left) */}
+                {/* Info (Right) */}
+                <div className="">
+                    <div className="flex flex-col gap-4">
+                        {/* Mobile Experience */}
+                        <div className="" style={{minHeight: "40vh"}}>
+                            <h1 className="text-3xl">My Experience</h1>
+                            <ul>
+                                <li>Thing</li>
+                                <li>Thing 2</li>
+                                <li>Thing 3</li>
+                            </ul>
+                        </div>
+                        {/* Mobile Experience */}
+                        {/* Mobile Projects */}
+                        <div className="pb-10">
+                            <h1 className="text-3xl">One Lonely Mobile Project</h1>
+                            <ul>
+                                <li><a className="underline text-lg list-item" href="">Pocket Recipes</a></li>
+                            </ul>
+                        </div>
+                        {/* Mobile Projects */}
+                    </div>
+                </div>
+                {/* Info (Right) */}
+            </div>
+        </div>
+        {/* Mobile End */}
+
+        {/* Unix Start */}
+        <div className="lg:px-20 px-10 pt-36 min-h-screen">
+            <h1 className='text-5xl text-primary pb-10'>Unix Development</h1>
+            <div className='flex flex-wrap content-between'>
+                {/* Info (Left) */}
+                <div className="" style={{minWidth: "40vw"}}>
+                    <div className="flex flex-col gap-4">
+                        {/* Unix Experience */}
+                        <div className="" style={{minHeight: "40vh"}}>
+                            <h1 className="text-3xl">My Experience</h1>
+                            <ul>
+                                <li>Thing</li>
+                                <li>Thing 2</li>
+                                <li>Thing 3</li>
+                            </ul>
+                        </div>
+                        {/* Unix Experience */}
+                        {/* Unix Projects */}
+                        <div className="pb-10">
+                            <h1 className="text-3xl">Unix Projects</h1>
+                            <ul>
+                                <li><a className="underline text-lg list-item" href="">Taskman Shell</a></li>
+                                <li><a className="underline text-lg list-item" href="">Process Scheduler</a></li>
+                                <li><a className="underline text-lg list-item" href="">Floating Point Calculator</a></li>
+                                <li><a className="underline text-lg list-item" href="">Assembly Bomb Defusal</a></li>
+                            </ul>
+                        </div>
+                        {/* Unix Projects */}
+                    </div>
+                </div>
+                {/* Info (Left) */}
+                {/* Stack (Right) */}
+                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                    <h1 className="text-3xl">Tools</h1>
+                    <div className="flex flex-row gap-2">
+                        <div className="flex flex-row gap-2 pb-10">
+                            <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                            <SkillTile name={"Assembly"} icon={"https://raw.githubusercontent.com/github/explore/e495457f5ff28c343f9e422f8e3cf80fd3e80890/topics/assembly/assembly.png"}/>
+                        </div>
+                    </div>
+                </div>
+                {/* Stack (Right) */}
+            </div>
+        </div>
+        {/* Unix End */}
+
+        {/* Testing Start */}
+        <div className="lg:px-20 px-10 pt-36 min-h-screen">
+            <h1 className='text-5xl text-primary pb-10'>Testing</h1>
+            <div className='flex flex-wrap content-between'>
+                {/* Stack (Left) */}
+                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                    <h1 className="text-3xl">Testing Tools</h1>
+                    <div className="flex flex-row gap-2">
+                        <div className="flex flex-row gap-2">
+                            <SkillTile name={"Jest"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"} />
+                            <SkillTile name={"JUnit"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} />
+                        </div>
+                    </div>
+                </div>
+                {/* Stack (Left) */}
+                {/* Info (Right) */}
+                <div className="" style={{minWidth: "40vw"}}>
+                    <div className="flex flex-col gap-4">
+                        {/* Testing Experience */}
+                        <div className="" style={{minHeight: "40vh"}}>
+                            <h1 className="text-3xl">My Experience</h1>
+                            <ul>
+                                <li>Thing</li>
+                                <li>Thing 2</li>
+                                <li>Thing 3</li>
+                            </ul>
+                        </div>
+                        {/* Testing Experience */}
+                        {/* Testing Projects */}
+                        <div className="pb-10">
+                            <h1 className="text-3xl">Example Tests</h1>
+                            <ul>
+                                <li><a className="underline text-lg list-item" href="">Pocket Recipes</a></li>
+                            </ul>
+                        </div>
+                        {/* Testing Projects */}
+                    </div>
+                </div>
+                {/* Info (Right) */}
+            </div>
+        </div>        
+        {/* Testing End */}
+
         {/* Development and Design Start */}
-        <div className="lg:px-10 px-2">
+        <div className="lg:px-10 px-2 pt-36">
             <div className="flex flex-row flex-wrap sm:justify-start justify-center gap-1">
                 {/* Left */}
                 <div className="lg:px-10 w-72" style={{minWidth: "45vw"}}>
@@ -60,8 +447,8 @@ export default function Skills() {
                 </div>
                 {/* Right */}
                 <div className="lg:px-10 w-72" style={{minWidth: "45vw"}}>
-                    <div className="w-40 pb-6">
-                        <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-600'>Design</h1>
+                    <div className="w-64 pb-6">
+                        <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>Design</h1>
                     </div>
                     <div className="">
                         <p className="text-xl">
@@ -82,17 +469,7 @@ export default function Skills() {
             </div>  
         </div>
         {/* Development and Design End */}
-        
-        {/* Scroll Message Start */}
-        <div className="grid grid-flow-row place-content-center pt-20">
-            {/* <h1 className="text-3xl text-primary">Scroll to learn more about my experience</h1> */}
-            <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
-        </div>
-        {/* Scroll Message End */}
 
-        <div>
-            
-        </div>
     </div>
     )
 }

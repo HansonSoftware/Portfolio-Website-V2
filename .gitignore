@@ -1,1 +1,4 @@
 node_modules
+firebase.ts
+Blog.tsx
+LoginPage.tsx

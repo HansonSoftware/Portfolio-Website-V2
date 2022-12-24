@@ -65,7 +65,15 @@ export default function Navbar() {
                     <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/about'>About</Link></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><Link to='/writing'>Writing</Link></li>
+                    <li tabIndex={0}>
+                        <Link to='/writing'>
+                        Writing
+                        {/* <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg> */}
+                        </Link>
+                        {/* <ul className="p-2 text-lg bg-base-100">
+                            <li><Link className="disabled" to='/writing/login'>Admin</Link></li>
+                        </ul> */}
+                    </li>
                 </ul>
             </div>
             <div>

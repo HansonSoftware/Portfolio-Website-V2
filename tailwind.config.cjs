@@ -11,8 +11,9 @@ module.exports = {
       light: {
         ...require("daisyui/src/colors/themes")["[data-theme=retro]"],
         primary: "#307049",
+        secondary: "#ab4e52",
       },
-    }, "night"],
+    }, "business", "forest", "night", "coffee", "dracula"],
     styled: true,
     base: true,
     utils: true,

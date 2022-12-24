@@ -4,7 +4,7 @@ import { FaAngleDoubleDown } from 'react-icons/fa'
 import { AiFillStar } from 'react-icons/ai'
 
 export default function Skills() {
-    
+
     return (
         <div className="pt-32">
 
@@ -62,28 +62,28 @@ export default function Skills() {
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Frontend  </code> 
                         </div>
-                        <progress className="progress w-64 h-5" value="90" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="90" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Backend  </code> 
                         </div>
-                        <progress className="progress progress-black w-64 h-5" value="65" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Databases  </code> 
                         </div>
-                        <progress className="progress progress-black w-64 h-5" value="75" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="75" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Testing  </code> 
                         </div>
-                        <progress className="progress progress-black w-64 h-5" value="75" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="75" max="100"></progress>
                     </div>
                 </div>
                 {/* Expertise Section End */}
@@ -123,16 +123,12 @@ export default function Skills() {
                     </div>
                 </div>
                 {/* Frameworks Section End */}
-
             </div>
-
             {/* Scroll Message Start */}
-        <div className="grid grid-flow-row place-content-center pt-36">
-            {/* <h1 className="text-3xl text-primary">Scroll to learn more about my experience</h1> */}
-            <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
-        </div>
-        {/* Scroll Message End */}
-
+            <div className="grid grid-flow-row place-content-center pt-36">
+                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+            </div>
+            {/* Scroll Message End */}
         </div>
         {/* Progress Bars End */}
 
@@ -142,7 +138,7 @@ export default function Skills() {
                 <h1 className='text-5xl pb-6'>My Toolbox</h1>
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-circle btn-ghost btn-sm text-info">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="w-6 h-6 stroke-secondary"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="w-6 h-6 stroke-info"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </label>
                     <div tabIndex={0} className="card card-compact dropdown-content shadow bg-base-300 rounded-box w-80">
                         <div className="card-body">
@@ -157,8 +153,8 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
-            <h2 className='text-4xl text-primary italic'>“You don’t understand anything until you learn it more than one way.”</h2>
-            <h3 className='text-4xl text-primary pl-2 pb-6'>- Marvin Minsky</h3>
+            <h2 className='text-4xl italic'>“You don’t understand anything until you learn it more than one way.”</h2>
+            <h3 className='text-3xl pl-2 pb-6'>- Marvin Minsky</h3>
             <div className="flex flex-wrap sm:justify-start justify-center gap-4 pt-6 pb-16 animate-slideup">
                 <SkillTile name={"Java"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"} />
                 <div className="indicator">
@@ -218,13 +214,13 @@ export default function Skills() {
 
         {/* Web Dev Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-10'>Web</h1>
+            <h1 className='text-5xl text-primary pb-6'>Web</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Info (Left) */}
                 <div className="" style={{minWidth: "40vw"}}>
                     <div className="flex flex-col gap-4">
                         {/* Web Experience */}
-                        <div className="" style={{minHeight: "40vh"}}>
+                        <div className="" style={{minHeight: "50vh"}}>
                             <h1 className="text-3xl">My Experience</h1>
                             <ul>
                                 <li>Thing</li>
@@ -248,7 +244,7 @@ export default function Skills() {
                 </div>
                 {/* Info (Left) */}
                 {/* Stack (Right) */}
-                <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>
+                <div className="flex flex-col gap-4" style={{minWidth: "30vw"}}>
                     <h1 className="text-3xl">My Most Used Stack</h1>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col gap-0">
@@ -284,7 +280,7 @@ export default function Skills() {
 
         {/* Mobile Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-10'>Mobile</h1>
+            <h1 className='text-5xl text-primary pb-6'>Mobile</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Stack (Left) */}
                 <div className="flex flex-col gap-4" style={{minWidth: "50vw"}}>
@@ -335,7 +331,7 @@ export default function Skills() {
 
         {/* Unix Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-10'>Unix Development</h1>
+            <h1 className='text-5xl text-primary pb-6'>Unix Development</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Info (Left) */}
                 <div className="" style={{minWidth: "40vw"}}>
@@ -354,10 +350,10 @@ export default function Skills() {
                         <div className="pb-10">
                             <h1 className="text-3xl">Unix Projects</h1>
                             <ul>
-                                <li><a className="underline text-lg list-item" href="">Taskman Shell</a></li>
-                                <li><a className="underline text-lg list-item" href="">Process Scheduler</a></li>
-                                <li><a className="underline text-lg list-item" href="">Floating Point Calculator</a></li>
-                                <li><a className="underline text-lg list-item" href="">Assembly Bomb Defusal</a></li>
+                                <li><a className="underline text-lg list-item pl-4" href="">Taskman Shell</a></li>
+                                <li><a className="underline text-lg list-item pl-4" href="">Process Scheduler</a></li>
+                                <li><a className="underline text-lg list-item pl-4" href="">Floating Point Calculator</a></li>
+                                <li><a className="underline text-lg list-item pl-4" href="">Assembly Bomb Defusal</a></li>
                             </ul>
                         </div>
                         {/* Unix Projects */}
@@ -381,7 +377,7 @@ export default function Skills() {
 
         {/* Testing Start */}
         <div className="lg:px-20 px-10 pt-36 min-h-screen">
-            <h1 className='text-5xl text-primary pb-10'>Testing</h1>
+            <h1 className='text-5xl text-primary pb-6'>Testing</h1>
             <div className='flex flex-wrap content-between'>
                 {/* Stack (Left) */}
                 <div className="flex flex-col gap-4" style={{minWidth: "40vw"}}>

@@ -8,7 +8,8 @@ import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
 import SkillsPage from './pages/SkillsPage';
 import WritingPage from './pages/WritingPage';
-import LoginPage from './pages/LoginPage';
+// import LoginPage from './pages/LoginPage';
+
 export default function App() {
     const [isAuth, setIsAuth] = useState(false);
 
@@ -21,7 +22,7 @@ export default function App() {
                     <Route path='/skills' element={<SkillsPage />} />
                     <Route path='/about' element={<AboutPage />} />
                     <Route path='/writing' element={<WritingPage />} />
-                    <Route path="/writing/login" element={<LoginPage setIsAuth={setIsAuth} />} />
+                    {/* <Route path="/writing/login" element={<LoginPage setIsAuth={setIsAuth} />} /> */}
                 </Routes>
         </Router>
     )

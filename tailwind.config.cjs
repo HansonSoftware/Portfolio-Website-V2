@@ -11,7 +11,12 @@ module.exports = {
       light: {
         ...require("daisyui/src/colors/themes")["[data-theme=retro]"],
         primary: "#307049",
-        secondary: "#ab4e52",
+        secondary: "#0d488c",
+      },
+      black: {
+        ...require("daisyui/src/colors/themes")["[data-theme=black]"],
+        primary: "#4fee99",
+        secondary: "#8a10cc",
       },
     }, "business", "forest", "night", "coffee", "dracula"],
     styled: true,

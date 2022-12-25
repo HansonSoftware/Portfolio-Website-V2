@@ -12,9 +12,7 @@
 
 ### Documentation of Web App and React Components
 
-**General App Description:** This web application serves as a portfolio for myself! I had a portfolio [site](https://mason.gmu.edu/~hhanson2/) before. It was my first attempt at a portfolio site and though it looks okay, it's not quite to the standard I would expect from myself now. This portfolio site is mobile responsive, contains multiple React components, and demonstrates all of my knowledge of CSS styling and frontend design principles. No CSS framework was used during the development of this app, this was all me! :)
-
-Preface for grader - not all of the mobile responsiveness is fully operational, please view my site on desktop for now. If anything happens to look jumbled at all, just hit ctrl - and zoom out 1 or 2 ticks, on the contrary if it looks super spaced out due to a large screen zoom in 1 or 2 clicks. Everything fits well on the screens available to me, in the Chrome browser. Thanks!
+**General App Description:** This web application serves as a portfolio for myself! I had a portfolio [site](https://mason.gmu.edu/~hhanson2/) before. It was my first attempt at a portfolio site and though it looks okay, it's not quite to the standard I would expect from myself now. This portfolio site is mobile responsive, contains multiple React components, and demonstrates all of my knowledge of CSS styling and frontend design principles.
 
 * **React Component 1: Navbar** 
   * *Functionality:* Displays a sticky navigation for the site.

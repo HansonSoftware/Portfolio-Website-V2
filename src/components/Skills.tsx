@@ -240,11 +240,11 @@ export default function Skills() {
                         {/* Web Projects */}
                         <div className="flex flex-col gap-1 pb-10 w-64">
                             <h1 className="text-3xl underline">Web Projects</h1>
-                            <a className="btn btn-outline text-lg" href="">Spotify Player</a>
-                            <a className="btn btn-outline text-lg" href="">Svelte Note</a>
-                            <a className="btn btn-outline text-lg" href="">Microservice</a>
-                            <a className="btn btn-outline text-lg" href="">This Site (V2)</a>
-                            <a className="btn btn-outline text-lg" href="">Old Site (V1)</a>
+                            <a className="btn btn-outline text-lg normal-case" href="">Spotify Player</a>
+                            <a className="btn btn-outline text-lg normal-case" href="">Svelte Note</a>
+                            <a className="btn btn-outline text-lg normal-case" href="">Microservice</a>
+                            <a className="btn btn-outline text-lg normal-case" href="">This Site (V2)</a>
+                            <a className="btn btn-outline text-lg normal-case" href="">Old Site (V1)</a>
                         </div>
                         {/* Web Projects */}
                     </div>
@@ -328,7 +328,7 @@ export default function Skills() {
                         <div className="pb-10">
                             <h1 className="text-3xl underline pb-2">Lonely Mobile Project</h1>
                             <div>
-                                <a className="btn btn-outline text-lg" href="">Pocket Recipes 🥕</a>
+                                <a className="btn btn-outline text-lg normal-case" href="">Pocket Recipes 🥕</a>
                             </div>
                         </div>
                         {/* Mobile Projects */}
@@ -364,10 +364,10 @@ export default function Skills() {
                         <div className="pb-10">
                             <h1 className="text-3xl underline pb-2">Unix Projects</h1>
                             <div className="flex flex-col gap-1 pb-10 w-64">
-                                <a className="btn btn-outline text-lg" href="">Taskman Shell </a>
-                                <a className="btn btn-outline text-lg" href="">Floating Point 🧮</a>
-                                <a className="btn btn-outline text-lg" href="">Process Scheduler</a>
-                                <a className="btn btn-outline text-lg" href="">Assembly Bomb 💣</a>
+                                <a className="btn btn-outline text-lg normal-case" href="">Taskman Shell </a>
+                                <a className="btn btn-outline text-lg normal-case" href="">Floating Point 🧮</a>
+                                <a className="btn btn-outline text-lg normal-case" href="">Process Scheduler</a>
+                                <a className="btn btn-outline text-lg normal-case" href="">Assembly Bomb 💣</a>
                             </div>
                         </div>
                         {/* Unix Projects */}

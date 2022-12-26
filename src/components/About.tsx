@@ -41,6 +41,22 @@ export default function About() {
                 {/* History Start */}
                 <div className="flex flex-wrap content-between gap-10 min-h-screen pt-36">
                     <h1 className="text-6xl">Relevant Work History</h1>
+                    <div>
+                        <li>
+                            Teaching Assistant <span>George Mason University</span>
+                            <p>
+                                Here I currently assist the CS department with SWE 205 class sections. This class focusses on Software Usability Analysis and Design. 
+                                I help students engage with the material during in class exercises. I also help on the grading panel.
+                            </p>
+                        </li>
+                        <li>
+                            My Journey Starts Here...
+                            <p>
+                                I'm currently searching for a developer or intern position at any size or shape of company.
+                                I am available for and mainly looking for remote work. However, I am in the Fairfax VA area and willing to commute for on-site work :) 
+                            </p>
+                        </li>
+                    </div>
                 </div>
                 {/* History End */}
 

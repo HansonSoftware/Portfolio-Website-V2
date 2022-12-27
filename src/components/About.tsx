@@ -1,5 +1,6 @@
 import React from 'react'
 import portrait from '../images/personal/me.jpg'
+import degree from '../images/personal/degree.jpg'
 
 export default function About() {
     return (
@@ -63,6 +64,33 @@ export default function About() {
                 {/* Education Start */}
                 <div className="flex flex-wrap content-between gap-10 min-h-screen pt-36">
                     <h1 className="text-6xl">My Degree 🎓</h1>
+                    <div className='education-section'>
+                        <div className='education-left'>
+                            <h2 className='degree'>Applied Computer Science B.S<br/><span>George Mason University - 3.5 GPA</span></h2>
+                            <h3 className='concentration'>Concentration in Software Engineering</h3>
+                            <ul className='electives-list'>
+                                <h3 className='electives'>Chosen Electives</h3>
+                                <li className='elective'>
+                                    SWE 432: Web App Development
+                                </li>
+                                <li className='elective'>
+                                    SWE 477: Mobile App Development
+                                </li>
+                                <li className='elective'>
+                                    CS 450: Database Concepts
+                                </li>
+                                <li className='elective'>
+                                    CS 468: Secure Programming
+                                </li>
+                                <li className='elective'>
+                                    SYST 469: Human Computer Interaction
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='education-right'>
+                            <img src={degree} />
+                        </div>
+                    </div>
                 </div>
                 {/* Education End */}
                 </div>

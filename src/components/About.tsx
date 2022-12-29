@@ -38,7 +38,6 @@ export default function About() {
                     {/* P's End */}
                 </div>
                 {/* About Header End */}
-
                 {/* History Start */}
                 <div className="flex flex-wrap content-between gap-10 pt-36" style={{minHeight: "40vh"}}>
                     <div className="flex flex-col gap-20">
@@ -109,35 +108,28 @@ export default function About() {
                     </div>
                 </div>
                 {/* History End */}
-
                 {/* Education Start */}
-                <div className="flex flex-wrap content-between gap-10 min-h-screen pt-36">
-                    <h1 className="text-6xl">My Degree 🎓</h1>
-                    <div className='education-section'>
-                        <div className='education-left'>
-                            <h2 className='degree'>Applied Computer Science B.S<br/><span>George Mason University - 3.5 GPA</span></h2>
-                            <h3 className='concentration'>Concentration in Software Engineering</h3>
-                            <ul className='electives-list'>
-                                <h3 className='electives'>Chosen Electives</h3>
-                                <li className='elective'>
-                                    SWE 432: Web App Development
-                                </li>
-                                <li className='elective'>
-                                    SWE 477: Mobile App Development
-                                </li>
-                                <li className='elective'>
-                                    CS 450: Database Concepts
-                                </li>
-                                <li className='elective'>
-                                    CS 468: Secure Programming
-                                </li>
-                                <li className='elective'>
-                                    SYST 469: Human Computer Interaction
-                                </li>
-                            </ul>
-                        </div>
-                        <div className='education-right'>
-                            <img src={degree} />
+                <div className="flex flex-wrap content-between gap-10 pt-36" style={{minHeight: "60vh"}}>
+                    <div className="flex flex-col gap-10">
+                        <h1 className="text-6xl">My Degree 🎓</h1>
+                        <div className='flex flex-wrap gap-10'>
+                            <div className='flex flex-col gap-8 lg:gap-12'>
+                                <div className="rounded-md">
+                                    <h2 className='text-4xl font-bold text-primary'>George Mason University</h2>
+                                    <h3 className='text-3xl'>Applied Computer Science B.S - 3.5 GPA</h3>
+                                    <h3 className='text-2xl'>Concentration in Software Engineering - 3.9 GPA</h3>
+                                </div>
+                                <div className='text-xl'>
+                                    <h3 className='text-3xl'>Chosen Electives</h3>
+                                    <li>SWE 432: Web App Development</li>
+                                    <li>SWE 477: Mobile App Development</li>
+                                    <li>CS 450: Database Concepts</li>
+                                    <li>CS 468: Secure Programming</li>
+                                    <li>SYST 469: Human Computer Interaction</li>
+                                    <li>CS 490: Design Exhibition</li>
+                                </div>
+                            </div>
+                            <img className='bg-base-200 border border-base-200 rounded-xl' src={degree} style={{aspectRatio: "16/9", maxWidth: "45rem", maxHeight: "22.5rem"}} />
                         </div>
                     </div>
                 </div>

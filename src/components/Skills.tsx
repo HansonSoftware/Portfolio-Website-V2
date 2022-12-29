@@ -2,6 +2,7 @@ import React from 'react'
 import SkillTile from './SkillTile'
 import { FaAngleDoubleDown } from 'react-icons/fa'
 import { AiFillStar } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 export default function Skills() {
 
@@ -75,21 +76,21 @@ export default function Skills() {
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Backend  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="60" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Databases  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="75" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Testing  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="75" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="60" max="100"></progress>
                     </div>
                 </div>
                 {/* Expertise Section End */}
@@ -109,14 +110,14 @@ export default function Skills() {
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>Svelte  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="55" max="100"></progress>
                     </div>
 
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>Vue  </code> 
                         </div>
-                        <progress className="progress progress-primary w-64 h-5" value="50" max="100"></progress>
+                        <progress className="progress progress-primary w-64 h-5" value="45" max="100"></progress>
                     </div>
 
                     <br/>
@@ -132,14 +133,14 @@ export default function Skills() {
             </div>
             {/* Scroll Message Start */}
             <div className="grid grid-flow-row place-content-center pt-36">
-                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+                <a className="animate-bounce text-primary" href="#toolbox"><span><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span></a>
             </div>
             {/* Scroll Message End */}
         </div>
         {/* Progress Bars End */}
 
         {/* Toolbox Start */}
-        <div className="lg:px-20 px-10 pt-36">
+        <div className="lg:px-20 px-10 pt-36" id="toolbox">
             <div className="flex flex-row gap-8">
                 <h1 className='text-5xl pb-6'>My Toolbox</h1>
                 <div className="dropdown dropdown-end">
@@ -233,18 +234,18 @@ export default function Skills() {
                                 <li className="text-lg">I have used React and Svelte multiple times and love working with either.</li>
                                 <li className="text-lg">I have worked with multiple API's and built microservices with Express.</li>
                                 <li className="text-lg">I can create beautiful yet functional UI's while also integrating backend features.</li>
-                                <li className="text-lg">I have taken <a className="underline" href="">SWE 432</a> at GMU as an elective.</li>
+                                <li className="text-lg">I have taken <a className="underline" href="https://catalog.gmu.edu/courses/swe/" target="_blank">SWE 432</a> at GMU as an elective.</li>
                             </div>
                         </div>
                         {/* Web Experience */}
                         {/* Web Projects */}
                         <div className="flex flex-col gap-1 pb-10 w-64">
                             <h1 className="text-3xl underline">Web Projects</h1>
-                            <a className="btn btn-outline text-lg normal-case" href="">Spotify Player</a>
-                            <a className="btn btn-outline text-lg normal-case" href="">Svelte Note</a>
-                            <a className="btn btn-outline text-lg normal-case" href="">Microservice</a>
-                            <a className="btn btn-outline text-lg normal-case" href="">This Site (V2)</a>
-                            <a className="btn btn-outline text-lg normal-case" href="">Old Site (V1)</a>
+                            <Link className="btn btn-outline text-lg normal-case" to="/projects/Spotify Player">Spotify Player</Link>
+                            <Link className="btn btn-outline text-lg normal-case" to="/projects/Svelte Note">Svelte Note</Link>
+                            <Link className="btn btn-outline text-lg normal-case" to="/projects/Microservice">Microservice</Link>
+                            <Link className="btn btn-outline text-lg normal-case" to="/projects/Portfolio Site V2">This Site (V2)</Link>
+                            <Link className="btn btn-outline text-lg normal-case" to="/projects/Portfolio Site V1">Old Site (V1)</Link>
                         </div>
                         {/* Web Projects */}
                     </div>
@@ -320,15 +321,15 @@ export default function Skills() {
                                 <li className="text-lg">I am familiar with React Native, and want to practice more!</li>
                                 <li className="text-lg">I am open to learning Swift and or Kotlin for native iOS and Android development.</li>
                                 <li className="text-lg">I can create beautiful yet functional UI's while also integrating backend features.</li>
-                                <li className="text-lg">I am going to take <a className="underline" href="">CS 477</a> at GMU as an elective to further my experience.</li>
+                                <li className="text-lg">I am going to take <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 477</a> at GMU as an elective to further my experience.</li>
                             </div>
                         </div>
                         {/* Mobile Experience */}
                         {/* Mobile Projects */}
                         <div className="pb-10">
-                            <h1 className="text-3xl underline pb-2">Lonely Mobile Project</h1>
+                            <h1 className="text-3xl underline pb-2">Mobile Project</h1>
                             <div>
-                                <a className="btn btn-outline text-lg normal-case" href="">Pocket Recipes 🥕</a>
+                                <Link className="btn btn-outline text-lg normal-case" to="/projects/Pocket Recipes">Pocket Recipes 🥕</Link>
                             </div>
                         </div>
                         {/* Mobile Projects */}
@@ -349,12 +350,12 @@ export default function Skills() {
                         {/* Unix Experience */}
                         <div className="" style={{minHeight: "40vh"}}>
                             <h1 className="text-3xl underline">Experience</h1>
-                            <div style={{maxWidth: "45rem"}}>
-                                <li className="text-lg">Zeus at GMU.</li>
-                                <li className="text-lg">Familiar with Linux.</li>
-                                <li className="text-lg">CS 367.</li>
-                                <li className="text-lg">CS 468.</li>
-                                <li className="text-lg">CS 471.</li>
+                            <div className="pr-6" style={{maxWidth: "55rem"}}>
+                                <li className="text-lg">I work with Zeus, a remote Unix environment at GMU quite frequently.</li>
+                                <li className="text-lg">I'm familiar with Linux.</li>
+                                <li className="text-lg">I've taken <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 367</a> where I learned about systems programming.</li>
+                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 468</a>where I'm learning about secure programming with C.</li>
+                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 471</a>where I'm learning about operating systems in depth.</li>
                                 <li className="text-lg">I include Rust here and not in my toolbox bevcause this is a very new tool for me.</li>
                                 <li className="text-lg">I plan to dive deeper into Rust development in my free time this year.</li>
                             </div>
@@ -364,10 +365,10 @@ export default function Skills() {
                         <div className="pb-10">
                             <h1 className="text-3xl underline pb-2">Unix Projects</h1>
                             <div className="flex flex-col gap-1 pb-10 w-64">
-                                <a className="btn btn-outline text-lg normal-case" href="">Taskman Shell </a>
-                                <a className="btn btn-outline text-lg normal-case" href="">Floating Point 🧮</a>
-                                <a className="btn btn-outline text-lg normal-case" href="">Process Scheduler</a>
-                                <a className="btn btn-outline text-lg normal-case" href="">Assembly Bomb 💣</a>
+                                <Link className="btn btn-outline text-lg normal-case" to="/projects/Taskman Shell">Taskman Shell </Link>
+                                <Link className="btn btn-outline text-lg normal-case" to="/projects/Floating Point">Floating Point 🧮</Link>
+                                <Link className="btn btn-outline text-lg normal-case" to="/projects/Process Scheduler">Process Scheduler</Link>
+                                <Link className="btn btn-outline text-lg normal-case" to="/projects/Assembly Bomb">Assembly Bomb 💣</Link>
                             </div>
                         </div>
                         {/* Unix Projects */}
@@ -375,7 +376,7 @@ export default function Skills() {
                 </div>
                 {/* Info (Left) */}
                 {/* Stack (Right) */}
-                <div className="flex flex-col" style={{minWidth: "35vw"}}>
+                <div className="flex flex-col" style={{minWidth: "30vw"}}>
                     <h1 className="text-3xl underline">Tools</h1>
                     <div className="flex flex-row gap-2">
                         <div className="flex flex-col pt-2 pb-10">
@@ -416,7 +417,9 @@ export default function Skills() {
                             <h1 className="text-3xl underline pb-2">Experience</h1>
                             <div style={{maxWidth: "45rem"}}>
                                 <li className="text-lg">I have written many tests in both JUnit and Jest.</li>
-                                <li className="text-lg">SWE 437.</li>
+                                <li className="text-lg">I'm familiar with Test Driven Development and its benefits.</li>
+                                <li className="text-lg">I have experience with setting up GitHub Actions for large projects.</li>
+                                <li className="text-lg">I have also learned a ton about testing through <a className="underline" href="https://catalog.gmu.edu/courses/swe/" target="_blank">SWE 437</a> at GMU.</li>
                             </div>
                         </div>
                         {/* Testing Experience */}
@@ -429,16 +432,16 @@ export default function Skills() {
 
         {/* Scroll Message Start */}
         <div className="grid grid-flow-row place-content-center pt-20">
-                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+                <a className="animate-bounce text-primary" href="#development"><span><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span></a>
             </div>
             {/* Scroll Message End */}
 
         {/* Development and Design Start */}
-        <div className="lg:px-10 px-2 pt-36">
+        <div className="lg:px-10 px-2 pt-36" id="development">
             <div className="flex flex-row flex-wrap sm:justify-start justify-center gap-1">
                 {/* Left */}
                 <div className="lg:px-10 w-72" style={{minWidth: "45vw"}}>
-                    <h1 className='text-5xl font-bold pb-6'>Developement</h1>
+                    <h1 className='text-5xl font-bold pb-6'>Development</h1>
                     <div className="">
                         <p className="text-xl">
                             Developing an idea into something concrete and engaging is something that I love to do! 

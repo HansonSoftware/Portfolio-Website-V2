@@ -13,7 +13,7 @@ export default function Welcome() {
             </div>
             {/* Scroll Bounce Start */}
             <div className="grid grid-flow-row place-content-center animate-slideup" style={{paddingTop: "32rem"}}>
-                <span className="animate-bounce text-primary"><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span>
+                <a className="animate-bounce text-primary" href="#portfolio"><span><FaAngleDoubleDown style={{width: "34px", height: "34px"}}/></span></a>
             </div>
             {/* Scroll Bounce End */}
         </div>

@@ -14,7 +14,7 @@ export default function Blog() {
                             <h2 className="card-title">How does this work?</h2> 
                             <p>Embedded into this website is a blog app that I built to share more content, to those who are interested.</p>
                             <br/>
-                            <p>This blog app is built with Firebase 🔥 and TypeScript. My posts are retirieved from the database and formatted here.</p>
+                            <p>This blog app is built with Firebase and TypeScript. My posts are retirieved from the database and formatted here.</p>
                         </div>
                     </div>
                 </div>

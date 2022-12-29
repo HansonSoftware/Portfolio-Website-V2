@@ -105,13 +105,18 @@
   background: #ffffff;
   color: black;
 }
+/* Footer Styles End: Inspired from CodePen: ___ */
 
-/* Marquee */
-@keyframes cssmarquee {
-  0% {
-  transform: translateX(100%);
-  }
-  100% {
-  transform: translateX(-100%);
-    }
-  }
+/* Custom Scrollbar */
+/* Width */
+/* ::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: black;
+}  */
+/* Custom Scrollbar End */

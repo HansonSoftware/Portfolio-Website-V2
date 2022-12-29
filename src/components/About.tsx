@@ -40,23 +40,72 @@ export default function About() {
                 {/* About Header End */}
 
                 {/* History Start */}
-                <div className="flex flex-wrap content-between gap-10 min-h-screen pt-36">
-                    <h1 className="text-6xl">Relevant Work History</h1>
-                    <div>
-                        <li>
-                            Teaching Assistant <span>George Mason University</span>
-                            <p>
-                                Here I currently assist the CS department with SWE 205 class sections. This class focusses on Software Usability Analysis and Design. 
-                                I help students engage with the material during in class exercises. I also help on the grading panel.
-                            </p>
-                        </li>
-                        <li>
-                            My Journey Starts Here...
-                            <p>
-                                I'm currently searching for a developer or intern position at any size or shape of company.
-                                I am available for and mainly looking for remote work. However, I am in the Fairfax VA area and willing to commute for on-site work :) 
-                            </p>
-                        </li>
+                <div className="flex flex-wrap content-between gap-10 pt-36" style={{minHeight: "40vh"}}>
+                    <div className="flex flex-col gap-20">
+                        <h1 className="text-6xl">Relevant Work History</h1>
+                        <div className="flex flex-wrap gap-6">
+                        {/* The button for GMU UTA */}
+                        <label htmlFor="my-modal-1" className="btn w-96 h-40">
+                            <h3 className="text-lg normal-case">
+                                <div className="flex flex-col">
+                                    <div>Teaching Assistant | <span>GMU CS</span></div>
+                                    <div>08/22 - Present</div>
+                                </div>
+                            </h3>
+                        </label>
+                        <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+                        <label htmlFor="my-modal-1" className="modal cursor-pointer">
+                        <label className="modal-box relative" htmlFor="">
+                            <label htmlFor="my-modal-1" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                            <h3 className="text-lg font-bold">
+                                <div className="flex flex-col">
+                                    <div>Teaching Assistant | <span>George Mason University</span></div>
+                                    <div>08/22 - Present</div>
+                                </div>
+                            </h3>
+                            <p className="py-4">Here I currently assist the CS department with SWE 205 class sections. This class focusses on Software Usability Analysis and Design. 
+                                    I help students engage with the material during in class exercises. I also help on the grading panel.</p>
+                        </label>
+                        </label>
+                        {/* The button for GMU UTA */}
+                        {/* The button for Freelance */}
+                        <label htmlFor="my-modal-2" className="btn w-96 h-40">
+                            <h3 className="text-lg normal-case">
+                                <div className="flex flex-col">
+                                    <div>Freelance | Web Development</div>
+                                    <div>12/22 - Present</div>
+                                </div>
+                            </h3>
+                        </label>
+                        <input type="checkbox" id="my-modal-2" className="modal-toggle" />
+                        <label htmlFor="my-modal-2" className="modal cursor-pointer">
+                        <label className="modal-box relative" htmlFor="">
+                            <label htmlFor="my-modal-2" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                            <h3 className="text-lg normal-case">
+                                <div className="flex flex-col">
+                                    <div>Freelance | Web Development</div>
+                                    <div>12/22 - Present</div>
+                                </div>
+                            </h3>
+                            <p className="py-4">I'm currently assisting a client design and build a full stack website for their small business. Progress and finished details coming soon!</p>
+                        </label>
+                        </label>
+                        {/* The button for Freelance */}
+                        {/* The button to tell people I'm open for hire */}
+                        <label htmlFor="my-modal-3" className="btn w-96 h-40">
+                            <h3 className="text-lg normal-case">Looking for Internship!</h3>
+                        </label>
+                        <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+                        <label htmlFor="my-modal-3" className="modal cursor-pointer">
+                        <label className="modal-box relative" htmlFor="">
+                            <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                            <h3 className="text-lg font-bold">My Journey Starts Here...</h3>
+                            <p className="py-4">I'm currently searching for a developer or intern position at any size or shape of company.
+                                    I am available for and mainly looking for remote work. However, I am in the Fairfax VA area and willing to commute for on-site work :) </p>
+                        </label>
+                        </label>
+                        {/* The button to tell people I'm open for hire */}
+                        </div>
                     </div>
                 </div>
                 {/* History End */}

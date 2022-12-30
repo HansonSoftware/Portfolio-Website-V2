@@ -14,9 +14,9 @@ export default function Portfolio() {
             <div className="flex flex-wrap sm:justify-start justify-center gap-12">
                 <ProjectTile  title='Spotify Player' type='Web App' image={spotify} device='web' />
                 <ProjectTile  title='Pocket Recipes' type='Mobile' image={pocketrecipes} device='iphone' />
-                <ProjectTile  title='Algorithm Simulation' type='GUI' image={graph} device='gui' />
                 <ProjectTile  title='Taskman Shell' type='Unix Program' image={shell} device='web' />
                 <ProjectTile  title='Process Scheduler' type='Unix Program' image={scheduler} device='web' />
+                <ProjectTile  title='Algorithm Simulation' type='GUI' image={graph} device='gui' />
                 <ProjectTile  title='Craigslist Reborn' type='User Interface' image={craigslist} device='web' />
             </div>
         </div>

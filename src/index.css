@@ -122,8 +122,8 @@
 /* Custom Scrollbar End */
 
 .project-tile-responsive {
-  width: 42.5vw;
-  height: 80vh;
+  width: 42vw;
+  height: 78vh;
 }
 
 @media (max-width: 1000px) {

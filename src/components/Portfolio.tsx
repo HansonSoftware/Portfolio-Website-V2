@@ -11,7 +11,7 @@ import craigslist from '../images/craigslist/craigslist.png'
 export default function Portfolio() {
     return (
         <div id='portfolio' style={{padding: "6vw"}}>
-            <div className="flex flex-wrap sm:justify-start justify-center gap-10">
+            <div className="flex flex-wrap sm:justify-start justify-center gap-12">
                 <ProjectTile  title='Spotify Player' type='Web App' image={spotify} device='web' />
                 <ProjectTile  title='Pocket Recipes' type='Mobile' image={pocketrecipes} device='iphone' />
                 <ProjectTile  title='Algorithm Simulation' type='GUI' image={graph} device='gui' />

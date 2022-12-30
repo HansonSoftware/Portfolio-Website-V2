@@ -10,7 +10,7 @@ interface ProjectProps {
 
 export default function ProjectTile(props:ProjectProps) {
     return (
-            <div className="bg-base-200 flex flex-col flex-grow-1 items-center border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl cursor-pointer" style={{width: "38rem", height: "38rem"}}>
+            <div className="bg-base-200 flex flex-col flex-grow-1 items-center border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl cursor-pointer project-tile-responsive">
                 <Link className="w-full" to={`/projects/${props.title}`}>
                 <div className="w-full">
                     <div className="content-start px-6 pt-6">
@@ -41,7 +41,7 @@ export default function ProjectTile(props:ProjectProps) {
                 )}
                 {props.device === "gui" && (
                 <div className="px-6 pt-12 w-full flex justify-center">  
-                    <img src={props.image} alt="project_image" className="border-2 border-neutral rounded-lg" style={{width: "24rem", height: "24rem"}} />
+                    <img src={props.image} alt="project_image" className="border border-neutral rounded-md" style={{width: "24rem", height: "24rem"}} />
                 </div>
                 )}
                 </Link>

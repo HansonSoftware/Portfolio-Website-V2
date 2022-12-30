@@ -120,3 +120,22 @@
   background: black;
 }  */
 /* Custom Scrollbar End */
+
+.project-tile-responsive {
+  width: 42.5vw;
+  height: 80vh;
+}
+
+@media (max-width: 1000px) {
+  .project-tile-responsive {
+    width: 38rem;
+    height: 38rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-tile-responsive {
+    width: 24rem;
+    height: 38rem;
+  }
+}

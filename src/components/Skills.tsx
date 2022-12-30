@@ -354,8 +354,8 @@ export default function Skills() {
                                 <li className="text-lg">I work with Zeus, a remote Unix environment at GMU quite frequently.</li>
                                 <li className="text-lg">I'm familiar with Linux.</li>
                                 <li className="text-lg">I've taken <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 367</a> where I learned about systems programming.</li>
-                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 468</a>where I'm learning about secure programming with C.</li>
-                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 471</a>where I'm learning about operating systems in depth.</li>
+                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 468</a> where I'm learning about secure programming with C.</li>
+                                <li className="text-lg">I'm currently taking <a className="underline" href="https://catalog.gmu.edu/courses/cs/" target="_blank">CS 471</a> where I'm learning about operating systems in depth.</li>
                                 <li className="text-lg">I include Rust here and not in my toolbox bevcause this is a very new tool for me.</li>
                                 <li className="text-lg">I plan to dive deeper into Rust development in my free time this year.</li>
                             </div>

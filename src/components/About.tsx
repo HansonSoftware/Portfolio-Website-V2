@@ -80,7 +80,7 @@ export default function About() {
                             <label htmlFor="my-modal-2" className="modal cursor-pointer">
                             <label className="modal-box relative" htmlFor="">
                                 <label htmlFor="my-modal-2" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                                <h3 className="text-lg normal-case">
+                                <h3 className="text-lg font-bold">
                                     <div className="flex flex-col">
                                         <div>Freelance | Web Development</div>
                                         <div>12/22 - Present</div>

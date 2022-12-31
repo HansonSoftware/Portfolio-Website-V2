@@ -23,7 +23,7 @@ export default function Blog() {
     },[]);
 
     return (
-        <div className="pt-40 grid place-content-center gap-16 lg:px-20 px-10">
+        <div className="pt-40 grid place-content-center gap-10 lg:px-20 px-10">
             <div className="flex flex-row gap-4">
                 <h1 className="text-5xl pb-8">Firebase Posts</h1>
                 <div className="dropdown dropdown-end">
@@ -35,7 +35,7 @@ export default function Blog() {
                             <h2 className="card-title">How does this work?</h2> 
                             <p>Embedded into this website is a blog app that I built to share more content, to those who are interested.</p>
                             <br/>
-                            <p>This blog app is built with Firebase and JavaScript. My posts are retirieved from the database and formatted here.</p>
+                            <p>This blog app is built with Firebase and JavaScript. My posts are retirieved from the database and formatted here. It is meant to be my own little version of Twitter.</p>
                         </div>
                     </div>
                 </div>

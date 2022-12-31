@@ -92,7 +92,7 @@ export default function About() {
                             {/* The button for Freelance */}
                             {/* The button to tell people I'm open for hire */}
                             <label htmlFor="my-modal-3" className="btn lg:w-96 lg:h-40 md:w-96 md:h-40 sm:w-96 sm:h-40 w-80 h-32">
-                                <h3 className="text-lg normal-case">Looking for Internship!</h3>
+                                <h3 className="text-lg normal-case">Looking for an Internship!</h3>
                             </label>
                             <input type="checkbox" id="my-modal-3" className="modal-toggle" />
                             <label htmlFor="my-modal-3" className="modal cursor-pointer">

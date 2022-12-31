@@ -22,45 +22,49 @@ export default function ProjectPage() {
 
     return (
         <div>
-            <div className="project-page-wrapper" id="top">
+            <div className="lg:px-20 px-10 pt-32">
+                {/* Spotify App */}
                 {title === "Spotify Player" && (
                     <div>
-                    <div className='project-header-wrapper'>
-                        <div className='project-left'>
-                            <h1>{ title }</h1>
-                            <h3>Web App</h3>
-                            <h4>Lead Developer</h4>
+                        {/* Header Start */}
+                        <div className='flex flex-wrap gap-4'>
+                            <div className='flex flex-col gap-2' style={{minWidth: "50vw"}}>
+                                <h1 className="text-6xl">Spotify Player</h1>
+                                <div className="p-2 bg-base-100 w-40 rounded-2xl">
+                                    <h2 className="text-xl">Web App</h2>
+                                    <h3 className="text-lg text-primary">Lead Developer</h3>
+                                </div>
+                            </div>
+                            <div className='flex flex-wrap gap-2'>
+                                <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"}/>
+                            </div>
                         </div>
-                        <div className='project-right'>
-                        <SkillTile
-                            name={"React"}
-                            icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"}
-                        />
-                        </div>
-                    </div>
-                    <div className='spotify-project-images'>
+                        {/* Header End */}
+                        
+                        <div className='spotify-project-images'>
 
-                    </div>
-                    <div className='project-section'>
-                        <h1>The Goal</h1>
-                        <p>
-                            The goal was ...
-                        </p>
-                    </div>
-                    <div className='project-section'>
-                        <h1>Development</h1>
-                        <p>
-                            The development was ...
-                        </p>
-                    </div>
-                    <div className='project-section'>
-                        <h1>Maintainability</h1>
-                        <p>
-                            THIS PAGE IS A WORK IN PROGRESS ...
-                        </p>
-                    </div>
+                        </div>
+                        <div className='project-section'>
+                            <h1>The Goal</h1>
+                            <p>
+                                The goal was ...
+                            </p>
+                        </div>
+                        <div className='project-section'>
+                            <h1>Development</h1>
+                            <p>
+                                The development was ...
+                            </p>
+                        </div>
+                        <div className='project-section'>
+                            <h1>Maintainability</h1>
+                            <p>
+                                THIS PAGE IS A WORK IN PROGRESS ...
+                            </p>
+                        </div>
                     </div>
                 )}
+                {/* Spotify App */}
 
                 {title === "Pocket Recipes" && (
                     <div>

@@ -6,6 +6,14 @@ import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import SkillTile from '../components/SkillTile';
 
+/* Image Imports */
+import pocketrecipes from '../images/recipe/FavoritesPage.png'
+import spotify from '../images/spotify/homepage.png'
+import graph from '../images/graph/graph.gif'
+import shell from '../images/shell/shell_start.png'
+import scheduler from '../images/scheduler/scheduler_start.png'
+import craigslist from '../images/craigslist/craigslist.png'
+
 export default function ProjectPage() {
     const { pathname } = useLocation();
 
@@ -30,38 +38,45 @@ export default function ProjectPage() {
                         <div className='flex flex-wrap gap-4'>
                             <div className='flex flex-col gap-2' style={{minWidth: "50vw"}}>
                                 <h1 className="text-6xl">Spotify Player</h1>
-                                <div className="p-2 bg-base-100 w-40 rounded-2xl">
+                                <div className="p-2 bg-base-100 w-60 rounded-2xl">
                                     <h2 className="text-xl">Web App</h2>
-                                    <h3 className="text-lg text-primary">Lead Developer</h3>
+                                    <h3 className="text-lg text-primary">Lead Developer • 2022</h3>
                                 </div>
-                            </div>
-                            <div className='flex flex-wrap gap-2'>
-                                <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"}/>
                             </div>
                         </div>
                         {/* Header End */}
-                        
-                        <div className='spotify-project-images'>
-
+                        {/* Image Start */}
+                        <div className="pt-6 w-full flex justify-center">
+                            <div className="mockup-window pt-4 border border-base-300">
+                                <div className="flex justify-center bg-base-200">
+                                    <img src={spotify} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
+                                </div>
+                            </div>
                         </div>
-                        <div className='project-section'>
-                            <h1>The Goal</h1>
-                            <p>
-                                The goal was ...
-                            </p>
+                        {/* Image End */}
+                        {/* Details Section Start */}
+                        <div className="pt-6 flex flex-col gap-6">
+                            <div className=''>
+                                <h1 className="text-4xl">Bullet Points</h1>
+                                <div>
+                                    <li>This is a side project.</li>
+                                    <li>"Melodify" is the name I thought of, stems from Spotify.</li>
+                                </div>
+                            </div>
+                            <div className=''>
+                                <h1 className="text-4xl">The Goal</h1>
+                                <p>
+                                    The goal with this project was to have fun with Spotify's API.
+                                </p>
+                            </div>
+                            <div className=''>
+                                <h1 className="text-4xl">Development</h1>
+                                <p>
+                                    THIS PAGE IS A WORK IN PROGRESS ...
+                                </p>
+                            </div>
                         </div>
-                        <div className='project-section'>
-                            <h1>Development</h1>
-                            <p>
-                                The development was ...
-                            </p>
-                        </div>
-                        <div className='project-section'>
-                            <h1>Maintainability</h1>
-                            <p>
-                                THIS PAGE IS A WORK IN PROGRESS ...
-                            </p>
-                        </div>
+                        {/* Details Section Start */}
                     </div>
                 )}
                 {/* Spotify App */}

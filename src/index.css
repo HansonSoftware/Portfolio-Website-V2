@@ -163,3 +163,10 @@
     height: 16rem;
   }
 }
+
+@media (min-width: 1650px) {
+  .project-tile-responsive {
+    width: 42vw;
+    height: 76vh;
+  }
+}

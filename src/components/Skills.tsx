@@ -12,7 +12,7 @@ export default function Skills() {
         {/* Progress Bars Start */}
         <div className="lg:px-20 px-10">
             <h1 className="pb-8 text-8xl animate-slideup3">Skills</h1>
-            <div className="flex flex-wrap gap-10 pt-10" style={{margin: "0px auto"}}>
+            <div className="lg:grid lg:grid-flow-col flex flex-wrap gap-6 place-content-center pt-10" style={{margin: "0px auto"}}>
 
                 {/* Language Section Start */}
                 <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
@@ -161,7 +161,7 @@ export default function Skills() {
                 </div>
             </div>
             <h2 className='text-4xl italic'>“You don’t understand anything until you learn it more than one way.”</h2>
-            <h3 className='text-3xl pl-2 pb-6'>- Marvin Minsky</h3>
+            <h3 className='text-2xl p-4'>- Marvin Minsky</h3>
             <div className="flex flex-wrap sm:justify-start justify-center gap-4 pt-6 pb-16 animate-slideup">
                 <SkillTile name={"Java"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"} />
                 <div className="indicator">

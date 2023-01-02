@@ -278,7 +278,7 @@ export default function ProjectPage() {
                                         <img src={shell_home} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
                                     </div>
                                 </div>
-                                <h2 className="text-2xl">☝️ Home Page</h2>
+                                <h2 className="text-2xl">☝️ Welcome Message</h2>
                             </div>
                             <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
                         </div>
@@ -303,25 +303,16 @@ export default function ProjectPage() {
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">What I learned:</h1>
-                                <p>
-                                    The main thing that I learned from this project was how to overcome the challenges of using an unfamiliar API. Thankfully, Spotifys documentation is 
-                                    laid out wonderfully and was fairly easy to understand. 
-                                    <br/>
-                                    <br/>
-                                    I also learned that TypeScript is not easy. It took me a while to get the hang of things, and even then, I still 
-                                    found myself turning strict mode off and using JavaScript in some areas. Like all things in life, learning TypeScript is defenitely going to be a long journey.
-                                </p>
+                                <div>
+                                    <li>Signal Handling</li>
+                                    <li>How to build a shell from scratch</li>
+                                    <li>Efficient memory management</li>
+                                </div>
                             </div>
                             <div className='grid place-items-center'>
                                 <h1 className="text-4xl pb-3 underline">The Tools I Used:</h1>
                                 <div className="flex flex-wrap gap-6">
-                                    <SkillTile name={"Vite"} icon={"https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"} />
-                                    <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} />
-                                    <SkillTile name={"TypeScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"} />
-                                    <SkillTile name={"Express"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"} />
-                                    <SkillTile name={"Node"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"} />
-                                    <SkillTile name={"Tailwind"} icon={"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"} />
-                                    <SkillTile name={"Figma"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"} />
+                                    <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
                                 </div>
                             </div>
                         </div>

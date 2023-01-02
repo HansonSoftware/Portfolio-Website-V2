@@ -62,8 +62,7 @@ export default function ProjectPage() {
                             <div className=''>
                                 <h1 className="text-4xl underline">Bullet Points:</h1>
                                 <div className="text-xl">
-                                    <li>This is a side project.</li>
-                                    <li>"Melodify" is the name I thought of, stems from "Spotify".</li>
+                                    <li>This is a side project of mine I call "Melodify", a Spotify Player.</li>
                                     <li>Melodify is build with Vite, React, JavaScript, TypeScript and Express.</li>
                                     <li>This project is using Spotify's Web API.</li>
                                     <li>I am using Tailwind CSS and Daisy UI to help me with styling.</li>
@@ -77,17 +76,24 @@ export default function ProjectPage() {
                                 </p>
                             </div>
                             <div className='text-xl'>
-                                <h1 className="text-4xl underline">Development:</h1>
-                                <p>
-                                    The development of this app was done in ...
-                                </p>
-                            </div>
-                            <div className='text-xl'>
                                 <h1 className="text-4xl underline">What I learned:</h1>
                                 <p>
                                     The main thing that I learned from this project was how to overcome the challenges of using an unfamiliar API. Thankfully, Spotifys documentation is 
-                                    laid out wonderfully and was fairly easy to understand. I also learned ...
+                                    laid out wonderfully and was fairly easy to understand. I also learned that TypeScript is not easy. It took me a while to get the hang of things, and even then, I still 
+                                    found myself turning strict mode off and using JavaScript in some areas. Like all things in life, learning TypeScript is defenitely going to be a long journey.
                                 </p>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl underline">The Tools I Used:</h1>
+                                <div className="flex flex-wrap gap-6">
+                                    <SkillTile name={"Vite"} icon={"https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"} />
+                                    <SkillTile name={"React"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} />
+                                    <SkillTile name={"TypeScript"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"} />
+                                    <SkillTile name={"Express"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"} />
+                                    <SkillTile name={"Node"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"} />
+                                    <SkillTile name={"Tailwind"} icon={"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"} />
+                                    <SkillTile name={"Figma"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"} />
+                                </div>
                             </div>
                         </div>
                         {/* Details Section End */}

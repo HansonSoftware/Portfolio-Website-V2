@@ -12,7 +12,7 @@ export default function Skills() {
         {/* Progress Bars Start */}
         <div className="lg:px-20 px-10">
             <h1 className="pb-8 text-8xl animate-slideup3">Skills</h1>
-            <div className="flex flex-wrap gap-10 pt-10">
+            <div className="flex flex-wrap gap-10 pt-10" style={{margin: "0px auto"}}>
 
                 {/* Language Section Start */}
                 <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>

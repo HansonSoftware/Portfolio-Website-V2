@@ -7,7 +7,9 @@ import { useParams } from "react-router-dom";
 import SkillTile from '../components/SkillTile';
 
 /* Image Imports */
-import pocketrecipes from '../images/recipe/FavoritesPage.png'
+import pr_favorites from '../images/recipe/FavoritesPage.png'
+import pr_signup from '../images/recipe/SignUpPage.png'
+import pr_search from '../images/recipe/SearchForEggs.png'
 import spotify from '../images/spotify/homepage.png'
 import graph from '../images/graph/graph.gif'
 import shell from '../images/shell/shell_start.png'
@@ -146,13 +148,41 @@ export default function ProjectPage() {
                         {/* Header End */}
                         {/* Image Start */}
                         <div className="pt-6 flex flex-col gap-6 items-center" style={{margin: "0px auto", aspectRatio: "16/9", maxWidth: "80vw"}}>
-                            <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Image Gallery</h1>
-                            <div className="mockup-window pt-4 border border-base-300">
-                                <div className="flex justify-center bg-base-200">
-                                    <img src={spotify} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
+                            <div className="flex flex-wrap gap-12">
+                                <div className="flex flex-col items-center gap-4">
+                                    <div className="mockup-phone border-neutral">
+                                        <div className="camera"></div> 
+                                        <div className="display">
+                                            <div className="artboard artboard-demo" style={{width: "16rem", height: "28rem"}}>
+                                                <img src={pr_signup} alt="project_image" style={{width: "16rem", height: "28rem"}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className="text-2xl">Sign Up Form</h2>
+                                </div>
+                                <div className="flex flex-col items-center gap-4">
+                                    <div className="mockup-phone border-neutral">
+                                        <div className="camera"></div> 
+                                        <div className="display">
+                                            <div className="artboard artboard-demo" style={{width: "16rem", height: "28rem"}}>
+                                                <img src={pr_favorites} alt="project_image" style={{width: "16rem", height: "28rem"}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className="text-2xl">Favorites Page</h2>
+                                </div>
+                                <div className="flex flex-col items-center gap-4">
+                                    <div className="mockup-phone border-neutral">
+                                        <div className="camera"></div> 
+                                        <div className="display">
+                                            <div className="artboard artboard-demo" style={{width: "16rem", height: "28rem"}}>
+                                                <img src={pr_search} alt="project_image" style={{width: "16rem", height: "28rem"}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 className="text-2xl">Search Results Page</h2>
                                 </div>
                             </div>
-                            <h2 className="text-2xl">☝️ This is the Homepage</h2>
                             <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
                         </div>
                         {/* Image End */}

@@ -19,7 +19,7 @@ export default function ProjectTile(props:ProjectProps) {
                     </div>
                 </div>
                 {props.device === "web" && (
-                <div className="px-6 lg:pt-14 pt-32 w-full flex justify-center">
+                <div className="lg:px-6 px-4 lg:pt-14 pt-24 w-full flex justify-center">
                     <div className="mockup-window pt-4 border border-base-300">
                         <div className="flex justify-center bg-base-200">
                             <img src={props.image} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
@@ -28,12 +28,12 @@ export default function ProjectTile(props:ProjectProps) {
                 </div>
                 )}
                 {props.device === "iphone" && (
-                <div className="px-6 py-2 w-full flex justify-center">
+                <div className="lg:px-6 px-2 py-2 w-full flex justify-center">
                     <div className="mockup-phone border-primary">
                         <div className="camera"></div> 
                         <div className="display">
-                            <div className="artboard artboard-demo" style={{width: "16rem", height: "28rem"}}>
-                                <img src={props.image} alt="project_image" style={{width: "16rem", height: "28rem"}} />
+                            <div className="artboard artboard-demo responsive_phone" >
+                                <img src={props.image} alt="project_image" className='responsive_phone' />
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function ProjectTile(props:ProjectProps) {
                 )}
                 {props.device === "gui" && (
                 <div className="px-6 pt-12 w-full flex justify-center">  
-                    <img src={props.image} alt="project_image" className="border border-neutral rounded-md" style={{width: "24rem", height: "24rem"}} />
+                    <img src={props.image} alt="project_image" className="border border-neutral rounded-md responsive_gui" />
                 </div>
                 )}
                 </Link>

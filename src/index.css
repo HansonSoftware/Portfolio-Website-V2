@@ -122,22 +122,44 @@
 /* Custom Scrollbar End */
 
 .project-tile-responsive {
-  width: 40vw;
-  height: 72vh;
+  width: 40rem;
+  height: 40rem;
   margin: 0px auto;
+}
+
+.responsive_phone {
+  width: 16rem;
+  height: 28rem;
+}
+
+.responsive_gui {
+  width: 24rem;
+  height: 24rem;
 }
 
 @media (max-width: 1000px) {
   .project-tile-responsive {
     width: 38rem;
     height: 38rem;
-
+  }
+  .responsive_phone {
+    width: 16rem;
+    height: 28rem;
   }
 }
 
 @media (max-width: 500px) {
   .project-tile-responsive {
-    width: 24rem;
-    height: 38rem;
+    width: 18rem;
+    height: 30rem;
+  }
+  .responsive_phone {
+    width: 10rem;
+    height: 18rem;
+  }
+
+  .responsive_gui {
+    width: 16em;
+    height: 16rem;
   }
 }

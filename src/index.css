@@ -124,12 +124,14 @@
 .project-tile-responsive {
   width: 42vw;
   height: 78vh;
+  margin: 0px auto;
 }
 
 @media (max-width: 1000px) {
   .project-tile-responsive {
     width: 38rem;
     height: 38rem;
+
   }
 }
 

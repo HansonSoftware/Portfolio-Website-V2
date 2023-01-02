@@ -40,43 +40,83 @@ export default function ProjectPage() {
                                 <h1 className="text-6xl">Spotify Player</h1>
                                 <div className="p-2 bg-base-100 w-60 rounded-2xl">
                                     <h2 className="text-xl">Web App</h2>
-                                    <h3 className="text-lg text-primary">Lead Developer • 2022</h3>
+                                    <h3 className="text-lg text-primary">Chief Developer • 2022</h3>
                                 </div>
                             </div>
                         </div>
                         {/* Header End */}
                         {/* Image Start */}
-                        <div className="pt-6 w-full flex justify-center">
+                        <div className="pt-6 flex flex-col gap-6 items-center" style={{margin: "0px auto", aspectRatio: "16/9", maxWidth: "80vw"}}>
+                            <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Image Gallery</h1>
                             <div className="mockup-window pt-4 border border-base-300">
                                 <div className="flex justify-center bg-base-200">
+
                                     <img src={spotify} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
                                 </div>
                             </div>
+                            <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
                         </div>
                         {/* Image End */}
                         {/* Details Section Start */}
-                        <div className="pt-6 flex flex-col gap-6">
+                        <div className="pt-16 flex flex-col gap-10" style={{margin: "0px auto", maxWidth: "80vw"}}>
                             <div className=''>
-                                <h1 className="text-4xl">Bullet Points</h1>
-                                <div>
+                                <h1 className="text-4xl underline">Bullet Points:</h1>
+                                <div className="text-xl">
                                     <li>This is a side project.</li>
-                                    <li>"Melodify" is the name I thought of, stems from Spotify.</li>
+                                    <li>"Melodify" is the name I thought of, stems from "Spotify".</li>
+                                    <li>Melodify is build with Vite, React, JavaScript, TypeScript and Express.</li>
+                                    <li>This project is using Spotify's Web API.</li>
+                                    <li>I am using Tailwind CSS and Daisy UI to help me with styling.</li>
                                 </div>
                             </div>
-                            <div className=''>
-                                <h1 className="text-4xl">The Goal</h1>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl underline">The Goal:</h1>
                                 <p>
-                                    The goal with this project was to have fun with Spotify's API.
+                                    The main goal with this project was to have fun with Spotify's Web API. I also wanted to get better at using React with Vite. 
+                                    I wanted to create a listening experience that was as close to Spotify as possible, with a new frontend design. 
                                 </p>
                             </div>
-                            <div className=''>
-                                <h1 className="text-4xl">Development</h1>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl underline">Development:</h1>
                                 <p>
-                                    THIS PAGE IS A WORK IN PROGRESS ...
+                                    The development of this app was done in ...
+                                </p>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl underline">What I learned:</h1>
+                                <p>
+                                    The main thing that I learned from this project was how to overcome the challenges of using an unfamiliar API. Thankfully, Spotifys documentation is 
+                                    laid out wonderfully and was fairly easy to understand. I also learned ...
                                 </p>
                             </div>
                         </div>
-                        {/* Details Section Start */}
+                        {/* Details Section End */}
+                        {/* More Info Start */}
+                        <div className="grid place-items-center pt-32">
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "20rem"}}>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Role</code>
+                                        <h3 className="text-xl">Chief Developer</h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Type</code>
+                                        <h3 className="text-xl">Side Project</h3>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Links</code>
+                                        <h3 className="text-xl"><a className="underline cursor-pointer" href="https://spotifywebapp.netlify.app/" target="_blank">Site</a> • <a className="underline cursor-pointer" href="https://github.com/HansonSoftware/Spotify-Web-App" target="_blank">GitHub</a></h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Year</code>
+                                        <h3 className="text-xl">2022</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* More Info End */}
                     </div>
                 )}
                 {/* Spotify App */}

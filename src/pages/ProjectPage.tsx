@@ -105,7 +105,7 @@ export default function ProjectPage() {
                         {/* Details Section End */}
                         {/* More Info Start */}
                         <div className="grid place-items-center pt-32">
-                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "20rem"}}>
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "16rem"}}>
                                 <div className="flex flex-col gap-6 p-4">
                                     <div>
                                         <code className="text-xl underline font-bold">Role</code>
@@ -228,7 +228,7 @@ export default function ProjectPage() {
                         {/* Details Section End */}
                         {/* More Info Start */}
                         <div className="grid place-items-center pt-32">
-                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "20rem"}}>
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "16rem"}}>
                                 <div className="flex flex-col gap-6 p-4">
                                     <div>
                                         <code className="text-xl underline font-bold">Role</code>
@@ -319,7 +319,7 @@ export default function ProjectPage() {
                         {/* Details Section End */}
                         {/* More Info Start */}
                         <div className="grid place-items-center pt-32">
-                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "20rem"}}>
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "16rem"}}>
                                 <div className="flex flex-col gap-6 p-4">
                                     <div>
                                         <code className="text-xl underline font-bold">Role</code>

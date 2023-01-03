@@ -13,7 +13,7 @@ import pr_search from '../images/recipe/SearchForEggs.png'
 import spotify from '../images/spotify/homepage.png'
 import graph from '../images/graph/graph.gif'
 import shell_home from '../images/shell/shell_start.png'
-import scheduler from '../images/scheduler/scheduler_start.png'
+import scheduler_home from '../images/scheduler/scheduler_start.png'
 import craigslist from '../images/craigslist/craigslist.png'
 
 export default function ProjectPage() {
@@ -288,25 +288,27 @@ export default function ProjectPage() {
                             <div className=''>
                                 <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
                                 <div className="text-xl">
-                                    <li>This is a side project of mine I call "Melodify", a Spotify Player.</li>
-                                    <li>Melodify is build with Vite, React, JavaScript, TypeScript and Express.</li>
-                                    <li>This project is using Spotify's Web API.</li>
-                                    <li>I am using Tailwind CSS and Daisy UI to help me with styling.</li>
+                                    <li>This is the infmaously hard final project for CS 367.</li>
+                                    <li>I was tasked to build a shell from scratch using the skills we learned throughout the year.</li>
+                                    <li>My program had no memory leaks, tested with Valgrind.</li>
+                                    <li>For more information about this project or the source code, please dont hesitate to contact me. I must abide by GMU's honor code policy!</li>
                                 </div>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">The Goal:</h1>
                                 <p>
-                                    The main goal with this project was to have fun with Spotify's Web API. I also wanted to get better at using React with Vite. 
-                                    I wanted to create a listening experience that was as close to Spotify as possible, with a new frontend design. 
+                                    The main goal with this project was to build a custom shell that achieves all the specifications requested. 
+                                    <br/>
+                                    <br/>
+                                    Another goal was to build a robust C program with efficient memory management.
                                 </p>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">What I learned:</h1>
                                 <div>
-                                    <li>Signal Handling</li>
-                                    <li>How to build a shell from scratch</li>
-                                    <li>Efficient memory management</li>
+                                    <li>Signal handling and building a bustom signal handler.</li>
+                                    <li>How to interact with the operating system.</li>
+                                    <li>Efficient memory management.</li>
                                 </div>
                             </div>
                             <div className='grid place-items-center'>
@@ -323,17 +325,17 @@ export default function ProjectPage() {
                                 <div className="flex flex-col gap-6 p-4">
                                     <div>
                                         <code className="text-xl underline font-bold">Role</code>
-                                        <h3 className="text-xl">Lead Developer</h3>
+                                        <h3 className="text-xl">Developer</h3>
                                     </div>
                                     <div>
                                         <code className="text-xl underline font-bold">Type</code>
-                                        <h3 className="text-xl">Side Project</h3>
+                                        <h3 className="text-xl">Class Project</h3>
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-6 p-4">
                                     <div>
                                         <code className="text-xl underline font-bold">Links</code>
-                                        <h3 className="text-xl"><a className="underline cursor-pointer" href="https://spotifywebapp.netlify.app/" target="_blank">Site</a> • <a className="underline cursor-pointer" href="https://github.com/HansonSoftware/Spotify-Web-App" target="_blank">GitHub</a></h3>
+                                        <h3 className="text-xl"><a className="underline cursor-pointer" href="https://github.com/HansonSoftware/" target="_blank">🔒 GitHub</a></h3>
                                     </div>
                                     <div>
                                         <code className="text-xl underline font-bold">Year</code>
@@ -346,6 +348,96 @@ export default function ProjectPage() {
                     </div>
                 )}
                 {/* Taskman Shell */}
+
+                {/* Process Scheduler */}
+                {title === "Process Scheduler" && (
+                    <div>
+                        {/* Header Start */}
+                        <div className='flex flex-wrap gap-4'>
+                            <div className='flex flex-col gap-2' style={{minWidth: "50vw"}}>
+                                <h1 className="text-6xl">Process Scheduler</h1>
+                                <div className="p-2 bg-base-100 w-60 rounded-2xl">
+                                    <h2 className="text-xl">Unix Program</h2>
+                                    <h3 className="text-lg text-primary">Developer • 2022</h3>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Header End */}
+                        {/* Image Start */}
+                        <div className="pt-6 flex flex-col gap-6 items-center" style={{margin: "0px auto", aspectRatio: "16/9", maxWidth: "80vw"}}>
+                            <div className="flex flex-col items-center gap-4">
+                                <div className="mockup-window pt-4 border border-base-300">
+                                    <div className="flex justify-center bg-base-200">
+                                        <img src={scheduler_home} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
+                                    </div>
+                                </div>
+                                <h2 className="text-2xl">☝️ Welcome Message</h2>
+                            </div>
+                            <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
+                        </div>
+                        {/* Image End */}
+                        {/* Details Section Start */}
+                        <div className="pt-16 flex flex-col gap-10" style={{margin: "0px auto", maxWidth: "80vw"}}>
+                            <div className=''>
+                                <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
+                                <div className="text-xl">
+                                    <li>This is the infmaously hard final project for CS 367.</li>
+                                    <li>I was tasked to build a shell from scratch using the skills we learned throughout the year.</li>
+                                    <li>My program had no memory leaks, tested with Valgrind.</li>
+                                    <li>For more information about this project or the source code, please dont hesitate to contact me. I must abide by GMU's honor code policy!</li>
+                                </div>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl pb-3 underline">The Goal:</h1>
+                                <p>
+                                    The main goal with this project was to build a custom shell that achieves all the specifications requested. Another goal was to build a robust C program with efficient memory management.
+                                </p>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl pb-3 underline">What I learned:</h1>
+                                <div>
+                                    <li>Signal handling and building a bustom signal handler.</li>
+                                    <li>How to interact with the operating system.</li>
+                                    <li>Efficient memory management.</li>
+                                </div>
+                            </div>
+                            <div className='grid place-items-center'>
+                                <h1 className="text-4xl pb-3 underline">The Tools I Used:</h1>
+                                <div className="flex flex-wrap gap-6">
+                                    <SkillTile name={"C"} icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg"} />
+                                </div>
+                            </div>
+                        </div>
+                        {/* Details Section End */}
+                        {/* More Info Start */}
+                        <div className="grid place-items-center pt-32">
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "16rem"}}>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Role</code>
+                                        <h3 className="text-xl">Developer</h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Type</code>
+                                        <h3 className="text-xl">Class Project</h3>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Links</code>
+                                        <h3 className="text-xl"><a className="underline cursor-pointer" href="https://github.com/HansonSoftware/" target="_blank">🔒 GitHub</a></h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Year</code>
+                                        <h3 className="text-xl">2022</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* More Info End */}
+                    </div>
+                )}
+                {/* Process Scheduler */}
 
                 {title === "Craigslist Reborn" && (
                     <div>
@@ -425,44 +517,6 @@ export default function ProjectPage() {
                     </div>
                 )}
 
-                {title === "Process Scheduler" && (
-                    <div>
-                    <div className='project-header-wrapper'>
-                        <div className='project-left'>
-                            <h1>{ title }</h1>
-                            <h3>Unix Program</h3>
-                            <h4>Developer</h4>
-                        </div>
-                        <div className='project-right'>
-                        <SkillTile
-                            name={"C"}
-                            icon={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"}
-                        />
-                        </div>
-                    </div>
-                    <div className='sheduler-project-images'>
-
-                    </div>
-                    <div className='project-section'>
-                        <h1>The Goal</h1>
-                        <p>
-                            The goal was ...
-                        </p>
-                    </div>
-                    <div className='project-section'>
-                        <h1>Development</h1>
-                        <p>
-                            The development was ...
-                        </p>
-                    </div>
-                    <div className='project-section'>
-                        <h1>Maintainability</h1>
-                        <p>
-                            THIS PAGE IS A WORK IN PROGRESS ...
-                        </p>
-                    </div>
-                    </div>
-                )}
                 </div>
             <Contact />
             <Footer />

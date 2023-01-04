@@ -29,9 +29,9 @@ export default function Navbar() {
                         <li><Link to='/projects/Spotify Player'>Spotify Player</Link></li>
                         <li><Link to='/projects/Pocket Recipes'>Pocket Recipes</Link></li>
                         <li><Link to='/projects/Taskman Shell'>Taskman Shell</Link></li>
-                        <li><Link to='/projects/Svelte Note'>Svelte Note</Link></li>
                         <li><Link to='/projects/Process Scheduler'>Process Scheduler</Link></li>
                         <li><Link to='/projects/Algorithm Simulation'>Algo Simulation</Link></li>
+                        <li><Link to='/projects/Craigslist Reborn'>Craigslist Reborn</Link></li>
                     </ul>
                     </li>
                     <li><Link to='/skills'>Skills</Link></li>
@@ -57,9 +57,9 @@ export default function Navbar() {
                             <li><Link to='/projects/Spotify Player'>Spotify Player</Link></li>
                             <li><Link to='/projects/Pocket Recipes'>Pocket Recipes</Link></li>
                             <li><Link to='/projects/Taskman Shell'>Taskman Shell</Link></li>
-                            <li><Link to='/projects/Svelte Note'>Svelte Note</Link></li>
                             <li><Link to='/projects/Process Scheduler'>Process Scheduler</Link></li>
                             <li><Link to='/projects/Algorithm Simulation'>Algorithm Simulation</Link></li>
+                            <li><Link to='/projects/Craigslist Reborn'>Craigslist Reborn</Link></li>
                         </ul>
                     </li>
                     <li><Link to='/skills'>Skills</Link></li>

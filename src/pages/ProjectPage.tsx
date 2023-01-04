@@ -10,6 +10,8 @@ import SkillTile from '../components/SkillTile';
 import pr_favorites from '../images/recipe/FavoritesPage.png'
 import pr_signup from '../images/recipe/SignUpPage.png'
 import pr_search from '../images/recipe/SearchForEggs.png'
+
+import notes from '../images/notes/homepage.png'
 import spotify from '../images/spotify/homepage.png'
 import graph from '../images/graph/graph.gif'
 import shell_home from '../images/shell/shell_start.png'
@@ -192,9 +194,10 @@ export default function ProjectPage() {
                             <div className=''>
                                 <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
                                 <div className="text-xl">
-                                    <li>This is a class project, I was paired with a great team.</li>
-                                    <li>We used Jira to manage our Agile approach to development.</li>
+                                    <li>This was a class project for CS 321. I was fortunate to be paired with a great team!</li>
+                                    <li>We used Jira software to manage our Agile approach to development.</li>
                                     <li>This project was built with Flutter, Dart, Java Spring, and Mongo DB.</li>
+                                    <li>I designed and built the entire frontend of this application.</li>
                                 </div>
                             </div>
                             <div className='text-xl'>
@@ -212,7 +215,7 @@ export default function ProjectPage() {
                                     The main thing that I learned from this project was how to design a mobile application from the ground up. As the lead frontend developer, I was in charge of how everything looked, along with how the entire Flutter UI worked.
                                     <br/>
                                     <br/>
-                                    I also learned that Jira is a fantastic way to manage a project.
+                                    I also learned that Jira is a fantastic way to manage a project. I now know and understand the value of being a good team member.
                                 </p>
                             </div>
                             <div className='grid place-items-center'>
@@ -300,13 +303,13 @@ export default function ProjectPage() {
                                     The main goal with this project was to build a custom shell that achieves all the specifications requested. 
                                     <br/>
                                     <br/>
-                                    Another goal was to build a robust C program with efficient memory management.
+                                    Another goal was to build a robust, well documented C program with efficient memory management.
                                 </p>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">What I learned:</h1>
                                 <div>
-                                    <li>Signal handling and building a bustom signal handler.</li>
+                                    <li>Signal handling and how to work with a custom signal handler.</li>
                                     <li>How to interact with the operating system.</li>
                                     <li>Efficient memory management.</li>
                                 </div>
@@ -381,7 +384,7 @@ export default function ProjectPage() {
                             <div className=''>
                                 <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
                                 <div className="text-xl">
-                                    <li>This is a project for CS 367.</li>
+                                    <li>This was a project for CS 367.</li>
                                     <li>I was tasked to build process scheduling functionality for a pre-built shell.</li>
                                     <li>My program had no memory leaks, tested with Valgrind.</li>
                                     <li>For more information about this project or the source code, please dont hesitate to contact me. I must abide by GMU's honor code policy!</li>
@@ -390,13 +393,16 @@ export default function ProjectPage() {
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">The Goal:</h1>
                                 <p>
-                                    The main goal with this project was to build a custom shell that achieves all the specifications requested. Another goal was to build a robust C program with efficient memory management.
+                                    The main goal with this project was to build a custom process scheduler that achieves all the specifications requested. 
+                                    <br/>
+                                    <br/>
+                                    Another goal was to build a robust, well documented C program with efficient memory management.
                                 </p>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">What I learned:</h1>
                                 <div>
-                                    <li>Signal handling and building a bustom signal handler.</li>
+                                    <li>Implementing data structures such as a Linked List in C.</li>
                                     <li>How to interact with the operating system.</li>
                                     <li>Efficient memory management.</li>
                                 </div>
@@ -477,14 +483,16 @@ export default function ProjectPage() {
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">The Goal:</h1>
                                 <p>
-                                    The main goal with this project was to succsesfully impliment the underlying graph data structure, and to impliment Prims MST algorithm.
+                                    The main goal with this project was to succsesfully implement the underlying graph data structure, and to impliment Prims MST algorithm.
                                 </p>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">What I learned:</h1>
                                 <div>
-                                    <li>Prims MST Algorithm.</li>
+                                    <li>Prim's MST Algorithm.</li>
                                     <li>In depth knowledge about the graph data structure.</li>
+                                    <li>How to work on an existing code-base.</li>
+                                    <li>Big O notation and time complexity.</li>
                                 </div>
                             </div>
                             <div className='grid place-items-center'>
@@ -547,7 +555,7 @@ export default function ProjectPage() {
                                         <img src={craigslist} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
                                     </div>
                                 </div>
-                                <h2 className="text-2xl">☝️ Redesign</h2>
+                                <h2 className="text-2xl">☝️ Redesigned Homepage</h2>
                             </div>
                             <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
                         </div>
@@ -557,25 +565,16 @@ export default function ProjectPage() {
                             <div className=''>
                                 <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
                                 <div className="text-xl">
-                                    <li>This is a project for CS 367.</li>
-                                    <li>I was tasked to build process scheduling functionality for a pre-built shell.</li>
-                                    <li>My program had no memory leaks, tested with Valgrind.</li>
-                                    <li>For more information about this project or the source code, please dont hesitate to contact me. I must abide by GMU's honor code policy!</li>
+                                    <li>This was my groups final project for SWE 205 - Usability Analysis and Design.</li>
+                                    <li>We were tasked to take any website, and to create a redesign that followed the usability principles we learned through the semester.</li>
+                                    <li>For more information about this project or the project slides, please dont hesitate to contact me. I must abide by GMU's honor code policy!</li>
                                 </div>
                             </div>
                             <div className='text-xl'>
                                 <h1 className="text-4xl pb-3 underline">The Goal:</h1>
                                 <p>
-                                    The main goal with this project was to build a custom shell that achieves all the specifications requested. Another goal was to build a robust C program with efficient memory management.
+                                    The main goal of this project was to take Craigslist's UI and turn it into something more modern and usable.
                                 </p>
-                            </div>
-                            <div className='text-xl'>
-                                <h1 className="text-4xl pb-3 underline">What I learned:</h1>
-                                <div>
-                                    <li>Signal handling and building a bustom signal handler.</li>
-                                    <li>How to interact with the operating system.</li>
-                                    <li>Efficient memory management.</li>
-                                </div>
                             </div>
                         </div>
                         {/* Details Section End */}
@@ -609,7 +608,85 @@ export default function ProjectPage() {
                 )}
                 {/* Craigslist Reborn */}
 
-                </div>
+                {/* Svelte Note */}
+                {title === "Svelte Note" && (
+                    <div>
+                        {/* Header Start */}
+                        <div className='flex flex-wrap gap-4'>
+                            <div className='flex flex-col gap-2' style={{minWidth: "50vw"}}>
+                                <h1 className="text-6xl">Svelte Note</h1>
+                                <div className="p-2 bg-base-100 w-60 rounded-2xl">
+                                    <h2 className="text-xl">Web App</h2>
+                                    <h3 className="text-lg text-primary">Developer • 2023</h3>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Header End */}
+                        {/* Image Start */}
+                        <div className="pt-6 flex flex-col gap-6 items-center" style={{margin: "0px auto", aspectRatio: "16/9", maxWidth: "80vw"}}>
+                            <div className="flex flex-col items-center gap-4">
+                                <div className="mockup-window pt-4 border border-base-300">
+                                    <div className="flex justify-center bg-base-200">
+                                        <img src={notes} alt="project_image" className="rounded-sm" style={{aspectRatio: "16/9", width: "100%", height: "100%"}} />
+                                    </div>
+                                </div>
+                                <h2 className="text-2xl">☝️ Home Page</h2>
+                            </div>
+                            <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary pb-6">more images soon...</h1>
+                        </div>
+                        {/* Image End */}
+                        {/* Details Section Start */}
+                        <div className="pt-16 flex flex-col gap-10" style={{margin: "0px auto", maxWidth: "80vw"}}>
+                            <div className=''>
+                                <h1 className="text-4xl pb-3 underline">Bullet Points:</h1>
+                                <div className="text-xl">
+                                    <li>This is a side project that I've just started.</li>
+                                    <li>This is an app im building to get better with Svelte.</li>
+                                </div>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl pb-3 underline">The Goal:</h1>
+                                <p>
+                                </p>
+                            </div>
+                            <div className='text-xl'>
+                                <h1 className="text-4xl pb-3 underline">What I learned:</h1>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Details Section End */}
+                        {/* More Info Start */}
+                        <div className="grid place-items-center pt-32">
+                            <div className="grid grid-flow-col bg-base-200 border border-base-300 rounded-2xl lg:w-96" style={{maxWidth: "60rem", minWidth: "16rem"}}>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Role</code>
+                                        <h3 className="text-xl">Developer</h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Type</code>
+                                        <h3 className="text-xl">Side Project</h3>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col gap-6 p-4">
+                                    <div>
+                                        <code className="text-xl underline font-bold">Links</code>
+                                        <h3 className="text-xl"><a className="underline cursor-pointer" href="https://github.com/HansonSoftware/Svelte-Notes-Web-App" target="_blank">GitHub</a></h3>
+                                    </div>
+                                    <div>
+                                        <code className="text-xl underline font-bold">Year</code>
+                                        <h3 className="text-xl">2023</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* More Info End */}
+                    </div>
+                )}
+                {/* Svelte Note */}
+
+            </div>
             <Contact />
             <Footer />
         </div>

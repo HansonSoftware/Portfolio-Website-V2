@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     
     return (
-        <div className="navbar bg-base-100 z-20 px-4 p-4 rounded-b-md fixed">
+        <div className="navbar bg-base-100 z-20 p-4 fixed border-b-2 border-primary">
             <div className="navbar-start">
                 <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,10 +31,10 @@ export default function Navbar() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-2xl bg-base-100 z-10">
-                    <li><a>Home</a></li>
-                    <li><a>Mission</a></li>
-                    <li><a>Works</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">

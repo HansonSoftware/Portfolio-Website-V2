@@ -17,6 +17,7 @@ import graph from '../images/graph/graph.gif'
 import shell_home from '../images/shell/shell_start.png'
 import scheduler_home from '../images/scheduler/scheduler_start.png'
 import craigslist from '../images/craigslist/craigslist.png'
+import Navbar from '../components/Navbar';
 
 export default function ProjectPage() {
     const { pathname } = useLocation();
@@ -34,6 +35,7 @@ export default function ProjectPage() {
 
     return (
         <div>
+            <Navbar />
             <div className="lg:px-20 px-10 pt-32">
                 {/* Spotify App */}
                 {title === "Spotify Player" && (

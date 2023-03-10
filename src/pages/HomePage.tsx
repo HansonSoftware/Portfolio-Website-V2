@@ -5,6 +5,7 @@ import Welcome from '../components/Welcome'
 import Portfolio from '../components/Portfolio'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Navbar from '../components/Navbar'
 
 export default function HomePage() {
     const { pathname } = useLocation();
@@ -20,6 +21,7 @@ export default function HomePage() {
 
     return (
         <div>
+            <Navbar />
             <Welcome />
             <Portfolio />
             <Contact />

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Skills from '../components/Skills'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Navbar from '../components/Navbar';
 
 export default function SkillsPage() {
     const { pathname } = useLocation();
@@ -19,6 +20,7 @@ export default function SkillsPage() {
 
     return (
         <div>
+            <Navbar />
             <Skills />
             <Contact />
             <Footer /> 

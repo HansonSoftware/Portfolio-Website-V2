@@ -4,18 +4,18 @@ import degree from '../images/personal/degree.jpg'
 
 export default function About() {
     return (
-            <div className="pt-32">
+            <div className="pt-32 animate-slideup">
                 <div className="lg:px-20 px-10">
-                    <h1 className="pb-8 lg:text-8xl md:text-7xl text-6xl animate-slideup3">About Me</h1>
+                    <h1 className="pb-8 lg:text-8xl md:text-7xl text-6xl">About Me</h1>
                     {/* About Header Start */}
                     <div className="flex flex-wrap content-between gap-10">
                         {/* Image Start */}
-                        <div className='animate-slideup2' style={{maxHeight: "32.5rem", maxWidth: "32.5rem"}}>
+                        <div className='' style={{maxHeight: "32.5rem", maxWidth: "32.5rem"}}>
                             <img src={portrait} className="border-2 border-base-200 rounded-3xl sm:w-96 sm:h-96 lg:w-full lg:h-full h-80 w-80" />
                         </div>
                         {/* Image End */}
                         {/* P's Start */}
-                        <div className='flex flex-col animate-slideup2 pt-12' style={{maxWidth: "40rem"}}>
+                        <div className='flex flex-col pt-12' style={{maxWidth: "40rem"}}>
                             <p className='text-2xl'>I'm Hayden, a senior at George Mason University. I'm set to graduate in December
                                 of 2023 and will be available for full time work both remotely and around Fairfax, VA.
                             </p>

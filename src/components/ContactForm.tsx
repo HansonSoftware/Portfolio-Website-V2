@@ -2,9 +2,9 @@ import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsFileEarmarkPerson } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
-import { AiOutlineCodepenCircle } from 'react-icons/ai'
+import resume from '../assets/resume.pdf'
+import { SiHandshake } from 'react-icons/si'
 import { AiFillMail } from 'react-icons/ai'
-import { SiFrontendmentor } from 'react-icons/si'
 
 export default function ContactForm() {
     return (
@@ -15,32 +15,27 @@ export default function ContactForm() {
                     <div className="flex flex-col gap-2 pb-32">
                         <div className="flex flex-row gap-4">
                             <h1 className="text-primary"><AiFillGithub style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">Github: <a className="underline" href="/" about="__blank">HansonSoftware</a></h1>
+                            <h1 className="lg:text-3xl md:text-2xl text-xl">Github: <a className="underline" href="https://github.com/HansonSoftware" target="_blank">HansonSoftware</a></h1>
                         </div>
 
                         <div className="flex flex-row gap-4">
                             <h1 className="text-primary"><AiFillLinkedin style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">LinkedIn: <a className="underline" href="/" about="__blank">HansonHayden</a></h1>
+                            <h1 className="lg:text-3xl md:text-2xl text-xl">LinkedIn: <a className="underline" href="https://www.linkedin.com/in/hansonhayden/" target="_blank">HansonHayden</a></h1>
                         </div>
 
                         <div className="flex flex-row gap-4">
-                            <h1 className="text-primary"><AiOutlineCodepenCircle style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">CodePen: <a className="underline" href="/" about="__blank">HansonHayden</a></h1>
-                        </div>
-
-                        <div className="flex flex-row gap-4">
-                            <h1 className="text-primary"><SiFrontendmentor style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">Frontend Mentor: <a className="underline" href="/" about="__blank">Link</a></h1>
+                            <h1 className="text-primary"><SiHandshake style={{width: "30", height: "30"}}/></h1>
+                            <h1 className="lg:text-3xl md:text-2xl text-xl">Handshake: <a className="underline" href="" target="_blank">Hayden Hanson</a></h1>
                         </div>
 
                         <div className="flex flex-row gap-4">
                             <h1 className="text-primary"><AiFillMail style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">Email: <a className="underline" href="/" about="__blank">HaydenHansonDev</a></h1>
+                            <h1 className="lg:text-3xl md:text-2xl text-xl"><a className="underline" href="HaydenHansonDev@gmail.com" target="_blank">HaydenHansonDev@gmail.com</a></h1>
                         </div>
 
                         <div className="flex flex-row gap-4">
                             <h1 className="text-primary"><BsFileEarmarkPerson style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">Resume: <a className="underline" href="/" about="__blank">View</a> | <a className="underline" href="/" about="__blank">Download</a></h1>
+                            <h1 className="lg:text-3xl md:text-2xl text-xl">Resume: <a className="underline" href={resume} target="_blank">View</a> | <a className="underline" href={resume} target="_blank">Download</a></h1>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,11 @@
 import React from 'react'
+
 import { AiFillGithub } from 'react-icons/ai'
 import { BsFileEarmarkPerson } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
-import resume from '../assets/resume.pdf'
 import { SiHandshake } from 'react-icons/si'
 import { AiFillMail } from 'react-icons/ai'
+import resume from '../assets/resume.pdf'
 
 export default function ContactForm() {
     return (
@@ -21,11 +22,6 @@ export default function ContactForm() {
                         <div className="flex flex-row gap-4">
                             <h1 className="text-primary"><AiFillLinkedin style={{width: "30", height: "30"}}/></h1>
                             <h1 className="lg:text-3xl md:text-2xl text-xl">LinkedIn: <a className="underline" href="https://www.linkedin.com/in/hansonhayden/" target="_blank">HansonHayden</a></h1>
-                        </div>
-
-                        <div className="flex flex-row gap-4">
-                            <h1 className="text-primary"><SiHandshake style={{width: "30", height: "30"}}/></h1>
-                            <h1 className="lg:text-3xl md:text-2xl text-xl">Handshake: <a className="underline" href="" target="_blank">Hayden Hanson</a></h1>
                         </div>
 
                         <div className="flex flex-row gap-4">
@@ -64,6 +60,7 @@ export default function ContactForm() {
                             </div>
                             <div>
                                 <input type="text" placeholder="Type your message here..." className="input input-bordered input-primary placeholder-base-content w-full" />
+                                {/* <textarea className="textarea" placeholder="Bio"></textarea> */}
                             </div>
                             <div>
                                 <button className="btn normal-case w-full">Send your message</button>

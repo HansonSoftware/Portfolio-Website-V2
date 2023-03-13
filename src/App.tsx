@@ -10,17 +10,19 @@ import Craftworks from './pages/Craftworks';
 import ContactPage from './pages/ContactPage';
 
 export default function App() {
-    
+
     return (
-        <Router>
-                <Routes>
-                    <Route path='/' element={<HomePage />} />
-                    <Route path='/projects/:title' element={<ProjectPage />} />
-                    <Route path='/skills' element={<SkillsPage />} />
-                    <Route path='/about' element={<AboutPage />} />
-                    <Route path='/contact' element={<ContactPage />} />
-                    <Route path='/craftworks' element={<Craftworks />} />
-                </Routes>
-        </Router>
+        <main>
+            <Router>
+                    <Routes>
+                        <Route path='/' element={<HomePage />} />
+                        <Route path='/projects/:title' element={<ProjectPage />} />
+                        <Route path='/skills' element={<SkillsPage />} />
+                        <Route path='/about' element={<AboutPage />} />
+                        <Route path='/contact' element={<ContactPage />} />
+                        <Route path='/craftworks' element={<Craftworks />} />
+                    </Routes>
+            </Router>
+        </main>
     )
 }

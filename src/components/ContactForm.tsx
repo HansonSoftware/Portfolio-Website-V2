@@ -3,7 +3,6 @@ import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsFileEarmarkPerson } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
-import { SiHandshake } from 'react-icons/si'
 import { AiFillMail } from 'react-icons/ai'
 import resume from '../assets/resume.pdf'
 

@@ -75,6 +75,10 @@ export default function Services() {
                     </div>
                     {/* Right */} 
                 </div>
+
+                <h1 className="lg:text-6xl md:text-6xl sm:text-5xl text-5xl underline lg:pb-24 pt-20 pb-8">Pricing</h1>
+
+
             </div>
         </div>
     )

@@ -5,6 +5,7 @@ import Hero from '../craftworks/Hero'
 import Services from '../craftworks/Services'
 import Showcase from '../craftworks/Showcase'
 import Contact from '../craftworks/Contact'
+import Footer from '../craftworks/Footer'
 
 export default function Craftworks() {
 
@@ -26,6 +27,7 @@ export default function Craftworks() {
             <Services />
             <Showcase />
             <Contact />
+            <Footer />
         </div>
     )
 }

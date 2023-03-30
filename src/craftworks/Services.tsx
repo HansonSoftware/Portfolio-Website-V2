@@ -11,11 +11,10 @@ export default function Services() {
                     <div className="grid flex-grow card rounded-box place-items-center lg:max-w-40p">
                     <div className="flex flex-col w-full lg:flex-row px-4">
                     <div>
-                        <h1 className='lg:text-4xl text-3xl pb-4'>Mission Statement:</h1>
+                        <h1 className='text-center lg:text-4xl text-3xl pb-4'>Mission Statement:</h1>
                         <div>
-                            <p className="lg:text-xl text-lg">
-                                Developing an idea into something concrete and engaging is something that I love to do! 
-                                I aim to write code that's simple and maintainable, approaching every project with a sense of craftsmanship.
+                            <p className="text-center lg:text-xl text-lg">
+                                Our mission is to think outside the box with design, and to approach every project with a sense of craftsmanship.
                             </p>
                         </div>
                     </div>
@@ -27,7 +26,7 @@ export default function Services() {
                     <div className="grid flex-grow card rounded-box place-content-center place-items-center lg:min-w-max">
                         <div className="flex flex-col w-full lg:flex-row px-4">
                             <div>
-                                Figure
+                                3D Figure coming soon ..
                             </div>
                         </div>
                     </div>
@@ -37,7 +36,7 @@ export default function Services() {
                     <div className="grid flex-grow card rounded-box place-items-center lg:min-w-max lg:max-w-40p">
                         <div className="flex flex-col w-full lg:flex-row px-4">
                         <div>
-                            <h1 className='lg:text-4xl text-3xl pb-4'>Services:</h1>
+                            <h1 className='text-center lg:text-4xl text-3xl pb-4'>Services:</h1>
                             <div className="flex flex-col gap-2">
                                 {/* Service 1 */}
                                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
@@ -45,7 +44,12 @@ export default function Services() {
                                         Custom Websites
                                     </div>
                                     <div className="collapse-content"> 
-                                        <p>We will hand craft and deploy the website you've been waiting for!</p>
+                                        <p className="text-left">We will hand craft and deploy the website you've been waiting for!</p>
+                                        <br/>
+                                        <p className="text-left">We start with a simple design, and work to bring your vision to life.</p>
+                                        <br/>
+                                        <p className="text-left">We handle the deployment, hosting, and more!</p>
+                                        
                                     </div>
                                 </div>
                                 {/* Service 1 */}
@@ -55,7 +59,9 @@ export default function Services() {
                                         Tech Services
                                     </div>
                                     <div className="collapse-content"> 
-                                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                                        <p className="text-left">We can also help with other various tech needs.</p>
+                                        <br/>
+                                        <p className="text-left">Contact us to find out if we can get the job done.</p>
                                     </div>
                                 </div>
                                 {/* Service 2 */}
@@ -65,7 +71,9 @@ export default function Services() {
                                         Mobile App Development
                                     </div>
                                     <div className="collapse-content"> 
-                                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                                        <p className="text-left flex-wrap">Have an interesting mobile app idea? We can bring it to life!</p>
+                                        <br/>
+                                        <p className="text-left">Please don't hesitate to ontact us with details.</p>
                                     </div>
                                 </div>
                                 {/* Service 3 */}
@@ -75,10 +83,6 @@ export default function Services() {
                     </div>
                     {/* Right */} 
                 </div>
-
-                <h1 className="lg:text-6xl md:text-6xl sm:text-5xl text-5xl underline lg:pb-24 pt-20 pb-8">Pricing</h1>
-
-
             </div>
         </div>
     )

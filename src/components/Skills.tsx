@@ -7,18 +7,18 @@ import { Link } from 'react-router-dom'
 export default function Skills() {
 
     return (
-        <div className="pt-32">
+        <div className="pt-32 animate-slideup">
 
         {/* Progress Bars Start */}
         <div className="lg:px-20 px-10">
-            <h1 className="pb-8 text-8xl animate-slideup3">Skills</h1>
+            <h1 className="pb-8 text-8xl">Skills</h1>
             <div className="lg:grid lg:grid-flow-col flex flex-wrap gap-6 place-content-center pt-10" style={{margin: "0px auto"}}>
 
                 {/* Language Section Start */}
-                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl" style={{width: "25rem", height: "18rem"}}>
 
-                    <h1 className="text-3xl underline pt-4 animate-slideup2">Languages</h1>
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
+                    <h1 className="text-3xl underline pt-4">Languages</h1>
+                    <div className="flex flex-row text-2xl gap-2 pt-4" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>JavaScript  </code> 
                         </div>
@@ -31,28 +31,28 @@ export default function Skills() {
                             </div> */}
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>C  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Dart  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="50" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Java  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="70" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Python  </code> 
                         </div>
@@ -62,31 +62,31 @@ export default function Skills() {
                 {/* Language Section End */}
 
                 {/* Expertise Section Start */}
-                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl" style={{width: "25rem", height: "18rem"}}>
 
-                    <h1 className="text-3xl underline pt-4 animate-slideup2">Versatility</h1>
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
+                    <h1 className="text-3xl underline pt-4">Versatility</h1>
+                    <div className="flex flex-row text-2xl gap-2 pt-4" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Frontend  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="90" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Backend  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="60" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Databases  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="65" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-40">
                             <code>Testing  </code> 
                         </div>
@@ -96,9 +96,9 @@ export default function Skills() {
                 {/* Expertise Section End */}
 
                 {/* Frameworks Section Start */}
-                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl animate-slideup" style={{width: "25rem", height: "18rem"}}>
+                <div className="flex flex-col gap-2 items-center bg-base-200 border-2 border-base-300 bg-opacity-80 backdrop-blur-sm rounded-3xl" style={{width: "25rem", height: "18rem"}}>
 
-                    <h1 className="text-3xl underline pt-4 animate-slideup2">Frameworks</h1>
+                    <h1 className="text-3xl underline pt-4">Frameworks</h1>
                     <div className="flex flex-row text-2xl gap-2 animate-slideup3 pt-4" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>React  </code> 
@@ -106,14 +106,14 @@ export default function Skills() {
                         <progress className="progress progress-primary w-64 h-5" value="85" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>Svelte  </code> 
                         </div>
                         <progress className="progress progress-primary w-64 h-5" value="55" max="100"></progress>
                     </div>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>Vue  </code> 
                         </div>
@@ -122,7 +122,7 @@ export default function Skills() {
 
                     <br/>
 
-                    <div className="flex flex-row text-2xl gap-2 animate-slideup3" style={{width: "20rem"}}>
+                    <div className="flex flex-row text-2xl gap-2" style={{width: "20rem"}}>
                         <div className="flex justify-end text-xl font-bold w-32">
                             <code>Flutter  </code> 
                         </div>

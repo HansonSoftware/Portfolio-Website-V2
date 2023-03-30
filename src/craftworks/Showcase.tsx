@@ -1,17 +1,18 @@
 import React from 'react'
 import example from '../images/craigslist/craigslist.png'
+import landscape from './img/chandlerlandscape/homepage.png'
 
 export default function Showcase() {
     return (
         <section id="showcase" className="pt-32 bg-base-100 min-h-screen px-8">
             <div className="grid place-content-center place-items-center">
                 <h1 className="lg:text-6xl md:text-6xl sm:text-5xl text-5xl underline pb-8">Showcase</h1>
-                <p className="text-lg">This is some of the work we've done.</p>
+                <p className="text-center lg:text-2xl md:text-xl sm:text-lg text-sm">This is some of the work we've done.</p>
                 <div className="overflow-x-auto">
                     <div className="flex min-h-[6rem] min-w-[18rem] max-w-4xl flex-wrap items-center justify-center gap-2 overflow-x-hidden p-1">
                         <div className="carousel carousel-center rounded-box">
                             <div id="item1" className="carousel-item w-full h-full pt-24">
-                                <img src={example} alt="" className="object-contain rounded-xl" />
+                                <img src={landscape} alt="" className="object-contain rounded-xl" />
                             </div> 
                             <div id="item2" className="carousel-item w-full h-full pt-24">
                                 <img src={example} alt="" className="object-contain rounded-xl" />

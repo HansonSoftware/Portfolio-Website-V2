@@ -14,7 +14,7 @@ export default function Services() {
                         <h1 className='text-center lg:text-4xl text-3xl pb-4'>Mission Statement:</h1>
                         <div>
                             <p className="text-center lg:text-xl text-lg">
-                                Our mission is to think outside the box with design, and to approach every project with a sense of craftsmanship.
+                                Our mission is to think outside the box when it comes to UI design, and to approach every project with a sense of craftsmanship.
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ export default function Services() {
                                     <div className="collapse-content"> 
                                         <p className="text-left flex-wrap">Have an interesting mobile app idea? We can bring it to life!</p>
                                         <br/>
-                                        <p className="text-left">Please don't hesitate to ontact us with details.</p>
+                                        <p className="text-left">Please don't hesitate to contact us with details.</p>
                                     </div>
                                 </div>
                                 {/* Service 3 */}

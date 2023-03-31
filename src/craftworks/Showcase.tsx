@@ -1,5 +1,4 @@
 import React from 'react'
-import example from '../images/craigslist/craigslist.png'
 import landscape from './img/chandlerlandscape/homepage.png'
 
 export default function Showcase() {
@@ -15,7 +14,7 @@ export default function Showcase() {
                                 <img src={landscape} alt="" className="object-contain rounded-xl" />
                             </div> 
                             <div id="item2" className="carousel-item w-full h-full pt-24">
-                                <img src={example} alt="" className="object-contain rounded-xl" />
+                                <img src={landscape} alt="" className="object-contain rounded-xl" />
                             </div> 
                         </div>
                     </div>
